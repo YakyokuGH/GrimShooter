@@ -738,3 +738,65 @@ LogInit: Object subsystem initialized
 [2018.09.25-20.55.49:437][620]LogSavePackage: Moving '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/TwinStickExampleMap_BuiltData5BD194EF46DFBE183C6F7A8B8D628B09.tmp' to '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
 [2018.09.25-20.57.34:501][268]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
 [2018.09.25-20.57.34:501][268]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.25-20.58.23:403][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.25-20.59.24:836][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.25-20.59.34:986][475]LogEditorViewport: Clicking on Actor (LMB): TwinStickPawn_C (TwinStickPawn)
+[2018.09.25-20.59.39:734][750]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-20.59.41:252][841]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-20.59.41:256][841]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn
+[2018.09.25-21.02.58:308][436]LogEditorTransaction: Undo Move Node
+[2018.09.25-21.03.04:208][711]LogEditorTransaction: Undo Move Node
+[2018.09.25-21.03.05:647][775]LogEditorTransaction: Undo Move Nodes
+[2018.09.25-21.03.08:052][885]LogEditorTransaction: Undo Move Node
+[2018.09.25-21.03.08:416][900]LogEditorTransaction: Undo Paste clipboard contents
+[2018.09.25-21.06.10:057][374]LogSavePackage: Moving '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/TwinStickExampleMap_Auto44F057DBC4C6A9B8739F48C80F57D27A1.tmp' to '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto4.umap'
+[2018.09.25-21.06.10:061][374]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.259
+[2018.09.25-21.06.10:061][374]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.259
+[2018.09.25-21.06.10:063][374]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/Blueprints/TwinStickPawn] ([1] browsable assets)...
+[2018.09.25-21.06.10:104][374]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TwinStickBP/Blueprints/TwinStickPawn.TwinStickPawn]
+[2018.09.25-21.06.10:105][374]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/Blueprints/TwinStickPawn]
+[2018.09.25-21.06.10:196][374]LogSavePackage: Moving '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/TwinStickPawn_Auto408F517BF42B74DEDF390A2BF23C12A4E.tmp' to '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/Autosaves/Game/TwinStickBP/Blueprints/TwinStickPawn_Auto4.uasset'
+[2018.09.25-21.06.10:198][374]LogFileHelpers: Auto-saving content packages took 0.135
+[2018.09.25-21.12.09:959][832]LogSavePackage: Moving '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/TwinStickPawn0C1E5FC748F1996E93BCCE989F41B47B.tmp' to '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.09.25-21.12.10:520][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-21.12.10:559][857]BlueprintLog: New page: Compile TwinStickPawn
+[2018.09.25-21.13.07:869][437]BlueprintLog: New page: Compile TwinStickPawn
+[2018.09.25-21.13.08:693][443]LogSavePackage: Moving '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/TwinStickPawn7D65E01E49BA4E94860C76A8D3F3D117.tmp' to '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.09.25-21.13.09:537][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-21.13.10:602][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-21.13.10:684][537]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.25-21.13.10:731][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.09.25-21.13.10:731][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.25-21.13.10:732][537]PIE: New page: PIE session: TwinStickExampleMap (26 sept. 2018 01:13:10)
+[2018.09.25-21.13.10:732][537]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.09.25-21.13.10:739][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007542s)
+[2018.09.25-21.13.10:741][537]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.09.25-21.13.10:741][537]LogPlayLevel: PIE: World Init took: (0.001537s)
+[2018.09.25-21.13.10:741][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.009360s)
+[2018.09.25-21.13.10:827][537]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.25-21.13.10:854][537]LogInit: FAudioDevice initialized.
+[2018.09.25-21.13.10:893][537]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.09.25-21.13.10:896][537]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.09.25-23.13.10
+[2018.09.25-21.13.10:896][537]LogWorld: Bringing up level for play took: 0.002100
+[2018.09.25-21.13.10:911][537]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0,683
+[2018.09.25-21.13.10:911][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.09.25-21.13.12:686][641]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.25-21.13.12:686][641]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.25-21.13.47:587][735]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.09.25-21.13.47:588][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-21.13.47:628][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.25-21.13.47:629][735]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.09.25-21.13.47:662][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.25-21.13.47:689][736]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.09.25-21.13.58:959][842]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-21.14.01:780][972]LogSavePackage: Moving '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/TwinStickPawnA44195F1468AC17E14B6C486F39A72B2.tmp' to '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.09.25-21.14.04:323][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-21.14.06:314][220]LogSavePackage: Moving '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/TwinStickPawnEBB04BE440435209AC26BC8B2D0CD3CD.tmp' to '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.09.25-21.14.09:375][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.25-21.14.26:279][347]LogSlate: Window 'TwinStickPawn' being destroyed
+[2018.09.25-21.14.26:285][347]LogSlate: Window 'TwinStickPawn' being destroyed
+[2018.09.25-21.14.34:512][832]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.25-21.14.34:512][832]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.25-21.14.43:659][379]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.25-21.14.43:897][379]LogSavePackage: Moving '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/TwinStickExampleMap68BD731E4F632E8D7E4FC18B58836524.tmp' to '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2018.09.25-21.14.44:029][379]LogSavePackage: Moving '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Saved/TwinStickExampleMap_BuiltDataC49849A04E44CE5E7CB6CBA94F2BAD18.tmp' to '../../../../../../Users/Alfred/Desktop/Projets/Unreal/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
