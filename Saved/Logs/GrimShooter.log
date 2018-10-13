@@ -1,4 +1,4 @@
-﻿Log file open, 10/09/18 14:10:06
+﻿Log file open, 10/12/18 22:12:53
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GrimShooter
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.426675
+LogStats: Stats thread started at 0.344353
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.736s to configure plugins.
+LogStreaming: Display: Took  0.716s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,640 +147,864 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.021s to delete old logs.
+LogStreaming: Display: Took  0.019s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.09-18.10.08:098][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.09-18.10.08:098][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.09-18.10.08:134][  0]LogHAL: Display: Platform has ~ 8 GB [8500101120 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.09-18.10.08:134][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.09-18.10.08:134][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.09-18.10.08:136][  0]LogInit: Computer: KRAKPC
-[2018.10.09-18.10.08:136][  0]LogInit: User: krakp000
-[2018.10.09-18.10.08:136][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.10.09-18.10.08:136][  0]LogInit: High frequency timer resolution =2.143478 MHz
-[2018.10.09-18.10.08:137][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.10.09-18.10.08:137][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.09-18.10.08:137][  0]LogMemory: Process Physical Memory: 100.43 MB used, 100.43 MB peak
-[2018.10.09-18.10.08:137][  0]LogMemory: Process Virtual Memory: 84.55 MB used, 84.55 MB peak
-[2018.10.09-18.10.08:137][  0]LogMemory: Physical Memory: 4827.38 MB used,  3278.95 MB free, 8106.33 MB total
-[2018.10.09-18.10.08:137][  0]LogMemory: Virtual Memory: 4606.95 MB used,  3278.95 MB free, 134217728.00 MB total
-[2018.10.09-18.10.08:210][  0]LogInit: Overriding locale with editor locale configuration option (fr).
-[2018.10.09-18.10.08:210][  0]LogInit: Overriding language with editor culture configuration option ().
-[2018.10.09-18.10.08:210][  0]LogInit: Using OS detected language (en-GB).
-[2018.10.09-18.10.08:213][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.10.09-18.10.08:903][  0]LogStreaming: Display: Took  0.693s to InitEngineTextLocalization.
-[2018.10.09-18.10.08:903][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.09-18.10.08:982][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.09-18.10.08:982][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.09-18.10.09:740][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.09-18.10.09:741][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.09-18.10.09:879][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
-[2018.10.09-18.10.09:879][  0]LogD3D11RHI:       2010/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.10.09-18.10.09:893][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2018.10.09-18.10.09:893][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.10.09-18.10.09:901][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.09-18.10.09:901][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.09-18.10.09:901][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.09-18.10.09:962][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.09-18.10.09:962][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.09-18.10.09:962][  0]LogWindows: EnumDisplayDevices:
-[2018.10.09-18.10.09:963][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2018.10.09-18.10.09:964][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.10.09-18.10.09:965][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.10.09-18.10.09:966][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.10.09-18.10.09:966][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
-[2018.10.09-18.10.09:966][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.10.09-18.10.09:966][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.10.09-18.10.09:966][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
-[2018.10.09-18.10.10:049][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.09-18.10.10:076][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.09-18.10.10:078][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Intermediate/Shaders/WorkingDirectory/8704/).
-[2018.10.09-18.10.10:079][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/krakp_000/AppData/Local/Temp/UnrealShaderWorkingDir/73DDFFD94F2E1A10C6075F96E6701A53/'.
-[2018.10.09-18.10.11:125][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.09-18.10.11:167][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.09-18.10.11:208][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.09-18.10.11:258][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.09-18.10.11:303][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.09-18.10.11:351][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.09-18.10.11:399][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.09-18.10.11:436][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.09-18.10.11:454][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:685][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-18.10.11:690][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.09-18.10.11:818][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.09-18.10.11:818][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.09-18.10.11:895][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.09-18.10.11:895][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.09-18.10.11:943][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.09-18.10.11:985][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.09-18.10.12:031][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.09-18.10.12:083][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.09-18.10.12:110][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.09-18.10.12:110][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.09-18.10.12:399][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.09-18.10.12:400][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.09-18.10.12:400][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.09-18.10.14:190][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.09-18.10.14:326][  0]LogDerivedDataCache: Loaded boot cache 0.14s 71MB C:/Users/krakp_000/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.09-18.10.14:327][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/krakp_000/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.09-18.10.14:328][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.09-18.10.14:328][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.09-18.10.14:328][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.09-18.10.14:328][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.09-18.10.14:359][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.09-18.10.14:375][  0]LogDerivedDataCache: Using Local data cache path C:/Users/krakp_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.09-18.10.14:375][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.09-18.10.14:375][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.09-18.10.14:414][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.09-18.10.14:417][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.09-18.10.14:419][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.09-18.10.14:587][  0]LogAssetRegistry: FAssetRegistry took 0.0329 seconds to start up
-[2018.10.09-18.10.15:580][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.09-18.10.15:974][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.09-18.10.15:992][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.09-18.10.15:993][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.09-18.10.15:993][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.09-18.10.15:993][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.09-18.10.16:026][  0]LogNetVersion: GrimShooter 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 682848799)
-[2018.10.09-18.10.17:528][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.456144 seconds
-[2018.10.09-18.10.17:540][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.09-18.10.17:540][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.10.09-18.10.17:540][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.09-18.10.20:053][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.09-18.10.20:071][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.09-18.10.20:374][  0]SourceControl: Source control is disabled
-[2018.10.09-18.10.20:374][  0]SourceControl: Source control is disabled
-[2018.10.09-18.10.20:379][  0]SourceControl: Source control is disabled
-[2018.10.09-18.10.20:382][  0]SourceControl: Source control is disabled
-[2018.10.09-18.10.20:708][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.09-18.10.20:864][  0]LogOcInput: OculusInput pre-init called
-[2018.10.09-18.10.20:999][  0]LogEngine: Initializing Engine...
-[2018.10.09-18.10.21:001][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.09-18.10.21:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.09-18.10.21:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.09-18.10.21:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.09-18.10.21:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.09-18.10.21:510][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.09-18.10.21:558][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.09-18.10.21:588][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.09-18.10.21:647][  0]LogInit: FAudioDevice initialized.
-[2018.10.09-18.10.21:647][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.09-18.10.21:953][  0]LogDerivedDataCache: Saved boot cache 0.31s 71MB C:/Users/krakp_000/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.09-18.10.21:979][  0]LogInit: Texture streaming: Enabled
-[2018.10.09-18.10.22:067][  0]LogInit: Transaction tracking system initialized
-[2018.10.09-18.10.22:160][  0]BlueprintLog: New page: Editor Load
-[2018.10.09-18.10.22:476][  0]LocalizationService: Localization service is disabled
-[2018.10.09-18.10.23:402][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.09-18.10.23:403][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.09-18.10.23:403][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.09-18.10.23:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.09-18.10.23:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.09-18.10.23:404][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.09-18.10.23:404][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.09-18.10.23:814][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/' took 0.03s
-[2018.10.09-18.10.23:838][  0]SourceControl: Source control is disabled
-[2018.10.09-18.10.23:838][  0]Cmd: MAP LOAD FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.09-18.10.23:839][  0]LightingResults: New page: Lighting Build
-[2018.10.09-18.10.23:849][  0]MapCheck: New page: Map Check
-[2018.10.09-18.10.23:849][  0]LightingResults: New page: Lighting Build
-[2018.10.09-18.10.24:221][  0]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Materials/Cursor_4'
-[2018.10.09-18.10.24:222][  0]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Materials/Cursor_4' while loading ../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset.
-[2018.10.09-18.10.24:222][  0]LoadErrors: Error: /Game/Blueprints/HUD_Blueprints : Can't find file for asset. /Game/GTFreeMaterials/Materials/Cursor_4
-[2018.10.09-18.10.24:223][  0]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Materials/Cursor_4'
-[2018.10.09-18.10.24:224][  0]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Materials/Cursor_4' while loading ../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset.
-[2018.10.09-18.10.24:224][  0]LoadErrors: Error: /Game/Blueprints/HUD_Blueprints : Can't find file for asset. /Game/GTFreeMaterials/Materials/Cursor_4
-[2018.10.09-18.10.24:226][  0]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Materials/Cursor_4'
-[2018.10.09-18.10.24:227][  0]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Materials/Cursor_4' while loading ../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset.
-[2018.10.09-18.10.24:227][  0]LoadErrors: Error: /Game/TwinStickBP/Blueprints/TwinStickGameMode : Can't find file for asset. /Game/GTFreeMaterials/Materials/Cursor_4
-[2018.10.09-18.10.24:227][  0]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Materials/Cursor_4'
-[2018.10.09-18.10.24:228][  0]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Materials/Cursor_4' while loading ../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset.
-[2018.10.09-18.10.24:228][  0]LoadErrors: Error: /Game/TwinStickBP/Blueprints/TwinStickGameMode : Can't find file for asset. /Game/GTFreeMaterials/Materials/Cursor_4
-[2018.10.09-18.10.24:233][  0]LogLinker: Warning: Can't find file '/Game/GTFreeMaterials/Materials/Cursor_4'
-[2018.10.09-18.10.24:233][  0]LoadErrors: Failed to load /Game/GTFreeMaterials/Materials/Cursor_4.Cursor_4 Referenced by K2Node_CallFunction_16
-[2018.10.09-18.10.24:233][  0]LogLinker: Warning: Can't find file for asset '/Game/GTFreeMaterials/Materials/Cursor_4' while loading ../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset.
-[2018.10.09-18.10.24:234][  0]LoadErrors: Failed to load /Game/GTFreeMaterials/Materials/Cursor_4.Cursor_4 Referenced by K2Node_CallFunction_16
-[2018.10.09-18.10.24:234][  0]LoadErrors: Error: /Game/TwinStickBP/Blueprints/TwinStickGameMode : Can't find file for asset. /Game/GTFreeMaterials/Materials/Cursor_4
-[2018.10.09-18.10.25:006][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2018.10.09-18.10.25:018][  0]LogMaterial: Warning: Material /Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.TutorialMaterial needed to have new flag set bUsedWithStaticLighting !
-[2018.10.09-18.10.25:028][  0]LogMaterial: Display: Missing cached shader map for material TutorialMaterial, compiling. 
-[2018.10.09-18.10.25:160][  0]MapCheck: Warning: TutorialMaterial Material /Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.TutorialMaterial was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2018.10.09-18.10.25:168][  0]LogShaderCompilers: Display: Shaders left to compile 31
-[2018.10.09-18.10.25:168][  0]LogShaderCompilers: Display: Shaders left to compile 21
-[2018.10.09-18.10.25:168][  0]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.10.09-18.10.25:168][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.09-18.10.25:241][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.09-18.10.25:657][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 416,008ms to complete.
-[2018.10.09-18.10.25:679][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 1.841
-[2018.10.09-18.10.25:883][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-18.10.25:914][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-18.10.25:940][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-18.10.25:968][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-18.10.26:000][  0]LogCollectionManager: Loaded 0 collections in 0.009932 seconds
-[2018.10.09-18.10.26:076][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Collections/' took 0.01s
-[2018.10.09-18.10.26:076][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Developers/krakp000/Collections/' took 0.01s
-[2018.10.09-18.10.26:076][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Collections/' took 0.01s
-[2018.10.09-18.10.26:076][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.09-18.10.26:117][  0]LogContentBrowser: Native class hierarchy populated in 0.0402 seconds. Added 2572 classes and 603 folders.
-[2018.10.09-18.10.26:157][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.10.09-18.10.26:400][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.10.09-18.10.26:418][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.10.09-18.10.26:463][  0]LogSlate: Took 0.000493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.09-18.10.26:470][  0]LogSlate: Took 0.000572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.09-18.10.26:492][  0]LogSlate: Took 0.000583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.09-18.10.26:746][  0]LogRenderer: Reallocating scene render targets to support 808x340 Format 10 NumSamples 1 (Frame:1).
-[2018.10.09-18.10.27:027][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.10.09-18.10.27:027][  0]LogLoad: (Engine Initialization) Total time: 25.64 seconds
-[2018.10.09-18.10.27:027][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.09-18.10.27:084][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.09-18.10.27:097][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.09-18.10.28:524][  8]LogAssetRegistry: Asset discovery search completed in 13.9592 seconds
-[2018.10.09-18.10.28:531][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.10.09-18.10.28:531][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000114 seconds (updated 0 objects)
-[2018.10.09-18.10.52:009][295]LogSlate: Window 'Message Log' being destroyed
-[2018.10.09-18.10.52:017][295]LogSlate: Window 'Message Log' being destroyed
-[2018.10.09-18.10.53:631][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-18.10.57:783][590]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.10.09-18.11.19:830][726]LogSlate: Took 0.000654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.09-18.11.19:845][726]LogAssetEditorManager: Opening Asset editor for Material /Game/TwinStickBP/2D/Textures/Cursor_Mat.Cursor_Mat
-[2018.10.09-18.11.19:853][726]LogMaterial: Display: Missing cached shader map for material Cursor_Mat, compiling. 
-[2018.10.09-18.11.20:548][726]LogMaterial: Display: Missing cached shader map for material Cursor_Mat, compiling. 
-[2018.10.09-18.11.20:577][726]LogMaterial: Display: Missing cached shader map for material Cursor_Mat, compiling. 
-[2018.10.09-18.11.20:606][726]LogShaderCompilers: Display: Shaders left to compile 21
-[2018.10.09-18.11.20:606][726]LogShaderCompilers: Display: Shaders left to compile 20
-[2018.10.09-18.11.20:606][726]LogShaderCompilers: Display: Shaders left to compile 19
-[2018.10.09-18.11.20:639][726]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.10.09-18.11.20:784][726]LogSlate: Took 0.000711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.10.09-18.11.31:857][183]LogMaterialEditor: Saving and Compiling material Cursor_Mat
-[2018.10.09-18.11.32:038][183]LogSlate: Took 0.001323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.09-18.11.33:447][183]LogShaderCompilers: Display: Shaders left to compile 20
-[2018.10.09-18.11.33:634][183]LogShaderCompilers: Display: Shaders left to compile 19
-[2018.10.09-18.11.33:738][183]LogShaderCompilers: Display: Shaders left to compile 18
-[2018.10.09-18.11.35:338][183]LogShaderCompilers: Display: Shaders left to compile 17
-[2018.10.09-18.11.35:482][183]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.10.09-18.11.35:780][183]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.10.09-18.11.36:575][183]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.10.09-18.11.36:886][183]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.10.09-18.11.37:655][183]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.09-18.11.39:295][183]LogSlate: Window 'Save Asset As' being destroyed
-[2018.10.09-18.11.39:365][183]LogMaterial: Display: Missing cached shader map for material Cursor_Mat, compiling. 
-[2018.10.09-18.12.08:858][183]LogShaderCompilers: Display: Shaders left to compile 33
-[2018.10.09-18.12.08:858][183]LogShaderCompilers: Display: Shaders left to compile 32
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 31
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 30
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 29
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 28
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 27
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 26
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 25
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 24
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 23
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.09-18.12.08:859][183]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.09-18.12.09:020][183]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Cursor_MatEC54A03F4F77C58AF832F3B7F0D5D686.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/GTFreeMaterials/Materials/Cursor_Mat.uasset'
-[2018.10.09-18.12.09:084][183]LogSlate: Window 'Cursor_Mat' being destroyed
-[2018.10.09-18.12.09:147][183]LogAssetEditorManager: Opening Asset editor for Material /Game/GTFreeMaterials/Materials/Cursor_Mat.Cursor_Mat
-[2018.10.09-18.12.09:163][183]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.10.09-18.12.09:409][183]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.10.09-18.12.09:450][183]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2018.10.09-18.12.09:509][183]LogShaderCompilers: Display: Shaders left to compile 21
-[2018.10.09-18.12.09:509][183]LogShaderCompilers: Display: Shaders left to compile 20
-[2018.10.09-18.12.09:509][183]LogShaderCompilers: Display: Shaders left to compile 19
-[2018.10.09-18.12.09:525][183]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.10.09-18.12.12:282][185]LogShaderCompilers: Display: Shaders left to compile 20
-[2018.10.09-18.12.12:317][185]LogShaderCompilers: Display: Shaders left to compile 19
-[2018.10.09-18.12.12:323][185]LogShaderCompilers: Display: Shaders left to compile 18
-[2018.10.09-18.12.13:745][188]LogShaderCompilers: Display: Shaders left to compile 17
-[2018.10.09-18.12.13:817][189]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.10.09-18.12.13:915][190]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.10.09-18.12.15:088][199]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.10.09-18.12.15:424][203]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.10.09-18.12.15:559][204]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.09-18.12.18:293][218]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.10.09-18.12.20:560][226]LogShaderCompilers: Display: Shaders left to compile 10
-[2018.10.09-18.12.20:943][229]LogShaderCompilers: Display: Shaders left to compile 9
-[2018.10.09-18.12.23:321][242]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.10.09-18.12.23:498][243]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.10.09-18.12.25:175][252]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.10.09-18.12.27:107][265]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.10.09-18.12.27:399][267]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.10.09-18.12.27:580][269]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.10.09-18.12.29:988][289]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.09-18.12.32:220][364]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.10.09-18.12.32:914][395]LogMaterialEditor: Saving and Compiling material Cursor_Mat
-[2018.10.09-18.12.33:111][395]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Cursor_Mat9E1B1D864F17424FC4F7038425E4F401.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/GTFreeMaterials/Materials/Cursor_Mat.uasset'
-[2018.10.09-18.12.34:633][447]LogSlate: Window 'Cursor_Mat' being destroyed
-[2018.10.09-18.12.34:642][447]LogSlate: Window 'Cursor_Mat' being destroyed
-[2018.10.09-18.12.50:615][188]LogSlate: Window 'Delete Assets' being destroyed
-[2018.10.09-18.12.56:366][496]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.10.09-18.12.56:366][496]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/HUD_Blueprints.HUD_Blueprints
-[2018.10.09-18.12.57:470][496]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 116 classes and 0 folders.
-[2018.10.09-18.12.59:321][497]LogSlate: Took 0.000560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.10.09-18.13.11:563][ 78]BlueprintLog: New page: Compile HUD_Blueprints
-[2018.10.09-18.13.12:883][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD_Blueprints" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset" SILENT=true
-[2018.10.09-18.13.13:049][123]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/HUD_Blueprints3957CEA44153A8AC9771C0A013F83942.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset'
-[2018.10.09-18.13.22:000][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD_Blueprints" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset" SILENT=true
-[2018.10.09-18.13.22:167][595]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/HUD_Blueprints1B3C75674750574ADC12EE8D51D63D78.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset'
-[2018.10.09-18.13.23:658][667]LogSlate: Window 'HUD_Blueprints' being destroyed
-[2018.10.09-18.13.23:666][667]LogSlate: Window 'HUD_Blueprints' being destroyed
-[2018.10.09-18.13.27:006][856]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.09-18.13.27:031][856]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2018.10.09-18.13.27:031][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.09-18.13.27:045][856]PIE: New page: PIE session: TwinStickExampleMap (9 oct. 2018 10:13:27)
-[2018.10.09-18.13.27:045][856]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
-[2018.10.09-18.13.27:055][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010402s)
-[2018.10.09-18.13.27:057][856]LogAIModule: Creating AISystem for world TwinStickExampleMap
-[2018.10.09-18.13.27:057][856]LogPlayLevel: PIE: World Init took: (0.001941s)
-[2018.10.09-18.13.27:057][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.012612s)
-[2018.10.09-18.13.27:119][856]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.09-18.13.27:166][856]LogInit: FAudioDevice initialized.
-[2018.10.09-18.13.27:217][856]LogLoad: Game class is 'TwinStickGameMode_C'
-[2018.10.09-18.13.27:221][856]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.09-14.13.27
-[2018.10.09-18.13.27:221][856]LogWorld: Bringing up level for play took: 0.002785
-[2018.10.09-18.13.27:253][856]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
-[2018.10.09-18.13.27:254][856]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0,112
-[2018.10.09-18.13.27:255][856]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2018.10.09-18.13.34:993][311]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2018.10.09-18.13.34:995][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-18.13.35:046][311]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.09-18.13.35:046][311]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
-[2018.10.09-18.13.35:093][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-18.13.35:123][312]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2018.10.09-18.13.47:818][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-18.13.48:492][ 68]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMapFAFA32074C830BCAB89CF8A01B4F32AC.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
-[2018.10.09-18.13.49:448][ 68]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap_BuiltData78D9423549D5F896A553B0A12FAC6F0E.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
-[2018.10.09-18.13.52:321][211]LogSlate: Window 'GrimShooter - Unreal Editor' being destroyed
-[2018.10.09-18.13.52:322][211]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.09-18.13.52:671][212]Cmd: QUIT_EDITOR
-[2018.10.09-18.13.52:963][212]LogExit: Preparing to exit.
-[2018.10.09-18.13.53:432][212]LogExit: Editor shut down
-[2018.10.09-18.13.53:434][212]LogExit: Transaction tracking system shut down
-[2018.10.09-18.13.54:234][212]LogExit: Object subsystem successfully closed.
-[2018.10.09-18.13.54:264][212]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.10.09-18.13.54:274][212]LogD3D11RHI: Shutdown
-[2018.10.09-18.13.54:274][212]LogD3D11RHI: CleanupD3DDevice
-[2018.10.09-18.13.54:278][212]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.10.09-18.13.54:409][212]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (614)
-[2018.10.09-18.13.54:409][212]LogModuleManager: Shutting down and abandoning module Voice (612)
-[2018.10.09-18.13.54:409][212]LogModuleManager: Shutting down and abandoning module BlueprintGraph (610)
-[2018.10.09-18.13.54:409][212]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (608)
-[2018.10.09-18.13.54:409][212]LogModuleManager: Shutting down and abandoning module SceneOutliner (606)
-[2018.10.09-18.13.54:409][212]LogModuleManager: Shutting down and abandoning module AddContentDialog (604)
-[2018.10.09-18.13.54:409][212]LogModuleManager: Shutting down and abandoning module WidgetCarousel (603)
-[2018.10.09-18.13.54:409][212]LogModuleManager: Shutting down and abandoning module EditorWidgets (600)
-[2018.10.09-18.13.54:409][212]LogModuleManager: Shutting down and abandoning module CollectionManager (598)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module LauncherPlatform (596)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module StatsViewer (594)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module FoliageEdit (592)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module LandscapeEditor (590)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module MeshPaintMode (588)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (586)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module ActorPickerMode (584)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module GeometryMode (582)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module TextureAlignMode (580)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module BspMode (578)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (576)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (574)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module AutomationWorker (572)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (570)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module SequenceRecorder (569)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (566)
-[2018.10.09-18.13.54:410][212]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (564)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module PlacementMode (563)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module MaterialEditor (562)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (558)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (556)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (554)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (552)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (550)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (548)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (546)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (544)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (542)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (540)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (538)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (536)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (534)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module CharacterAI (532)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module SmartSnapping (530)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module SessionServices (528)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module ViewportSnapping (526)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module ViewportInteraction (524)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module ClothPainter (522)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (521)
-[2018.10.09-18.13.54:411][212]LogModuleManager: Shutting down and abandoning module LogVisualizer (518)
-[2018.10.09-18.13.54:412][212]LogModuleManager: Shutting down and abandoning module IntroTutorials (516)
-[2018.10.09-18.13.54:412][212]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (515)
-[2018.10.09-18.13.54:412][212]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (512)
-[2018.10.09-18.13.54:412][212]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (510)
-[2018.10.09-18.13.54:412][212]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (508)
-[2018.10.09-18.13.54:412][212]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (506)
-[2018.10.09-18.13.54:412][212]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (505)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (502)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (500)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (498)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (496)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module InputBindingEditor (494)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module MergeActors (492)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (490)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module LocalizationService (489)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module HardwareTargeting (486)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (484)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module UndoHistory (482)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module XmlParser (480)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module Blutility (478)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (476)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (475)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (472)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module SettingsEditor (470)
-[2018.10.09-18.13.54:682][212]LogModuleManager: Shutting down and abandoning module ProjectLauncher (468)
-[2018.10.09-18.13.54:683][212]LogModuleManager: Shutting down and abandoning module SessionFrontend (466)
-[2018.10.09-18.13.54:683][212]LogModuleManager: Shutting down and abandoning module ProfilerClient (464)
-[2018.10.09-18.13.54:683][212]LogModuleManager: Shutting down and abandoning module DeviceManager (462)
-[2018.10.09-18.13.54:683][212]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (461)
-[2018.10.09-18.13.54:738][212]LogModuleManager: Shutting down and abandoning module AutomationController (458)
-[2018.10.09-18.13.54:738][212]LogModuleManager: Shutting down and abandoning module AutomationWindow (456)
-[2018.10.09-18.13.54:738][212]LogModuleManager: Shutting down and abandoning module Layers (454)
-[2018.10.09-18.13.54:738][212]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (452)
-[2018.10.09-18.13.54:738][212]LogModuleManager: Shutting down and abandoning module DetailCustomizations (450)
-[2018.10.09-18.13.54:738][212]LogModuleManager: Shutting down and abandoning module PackagesDialog (448)
-[2018.10.09-18.13.54:738][212]LogModuleManager: Shutting down and abandoning module Persona (446)
-[2018.10.09-18.13.54:738][212]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (445)
-[2018.10.09-18.13.54:738][212]LogModuleManager: Shutting down and abandoning module AnimGraph (443)
-[2018.10.09-18.13.54:738][212]LogModuleManager: Shutting down and abandoning module Kismet (440)
-[2018.10.09-18.13.54:744][212]LogModuleManager: Shutting down and abandoning module GraphEditor (438)
-[2018.10.09-18.13.54:744][212]LogModuleManager: Shutting down and abandoning module ClassViewer (436)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module Toolbox (434)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module ModuleUI (432)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module MovieSceneTools (430)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module OutputLog (428)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module GammaUI (426)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module Documentation (424)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (422)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module MovieScene (420)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (418)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.10.09-18.13.54:745][212]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.10.09-18.13.54:746][212]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.10.09-18.13.54:746][212]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.10.09-18.13.54:746][212]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.10.09-18.13.54:746][212]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2018.10.09-18.13.54:746][212]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2018.10.09-18.13.54:976][212]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2018.10.09-18.13.54:977][212]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2018.10.09-18.13.54:977][212]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2018.10.09-18.13.54:977][212]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2018.10.09-18.13.54:983][212]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2018.10.09-18.13.54:986][212]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2018.10.09-18.13.54:987][212]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2018.10.09-18.13.54:987][212]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2018.10.09-18.13.54:987][212]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2018.10.09-18.13.54:987][212]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2018.10.09-18.13.54:987][212]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2018.10.09-18.13.54:987][212]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2018.10.09-18.13.54:987][212]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2018.10.09-18.13.54:987][212]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2018.10.09-18.13.54:988][212]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2018.10.09-18.13.54:988][212]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2018.10.09-18.13.54:988][212]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2018.10.09-18.13.54:988][212]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2018.10.09-18.13.54:988][212]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2018.10.09-18.13.54:988][212]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2018.10.09-18.13.54:988][212]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2018.10.09-18.13.54:989][212]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2018.10.09-18.13.54:989][212]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2018.10.09-18.13.54:989][212]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2018.10.09-18.13.54:989][212]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2018.10.09-18.13.54:989][212]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.10.09-18.13.54:989][212]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.10.09-18.13.54:989][212]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.10.09-18.13.54:989][212]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.10.09-18.13.54:989][212]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.10.09-18.13.54:990][212]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.10.09-18.13.54:990][212]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.10.09-18.13.54:990][212]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.10.09-18.13.54:990][212]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.10.09-18.13.55:091][212]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.10.09-18.13.55:257][212]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.10.09-18.13.55:257][212]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.10.09-18.13.55:258][212]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.10.09-18.13.55:259][212]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.10.09-18.13.55:259][212]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.10.09-18.13.55:259][212]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.10.09-18.13.55:260][212]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.10.09-18.13.55:266][212]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.10.09-18.13.55:266][212]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.10.09-18.13.55:267][212]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.10.09-18.13.55:267][212]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.10.09-18.13.55:272][212]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.10.09-18.13.55:277][212]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.10.09-18.13.55:278][212]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.10.09-18.13.55:278][212]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.10.09-18.13.55:278][212]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.10.09-18.13.55:278][212]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.10.09-18.13.55:278][212]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.10.09-18.13.55:281][212]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.10.09-18.13.55:290][212]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.10.09-18.13.55:290][212]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.10.09-18.13.55:290][212]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.10.09-18.13.55:291][212]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.10.09-18.13.55:291][212]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.10.09-18.13.55:291][212]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.10.09-18.13.55:291][212]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.10.09-18.13.55:291][212]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.10.09-18.13.55:291][212]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.10.09-18.13.55:292][212]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.10.09-18.13.55:293][212]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.10.09-18.13.55:293][212]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.10.09-18.13.55:293][212]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.10.09-18.13.55:293][212]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.10.09-18.13.55:293][212]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.10.09-18.13.55:293][212]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.10.09-18.13.55:294][212]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.10.09-18.13.55:294][212]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.10.09-18.13.55:294][212]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.10.09-18.13.55:294][212]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.10.09-18.13.55:300][212]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.10.09-18.13.55:301][212]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.10.09-18.13.55:301][212]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.10.09-18.13.55:301][212]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.10.09-18.13.55:301][212]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.10.09-18.13.55:301][212]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.10.09-18.13.55:359][212]LogDerivedDataCache: Shutdown
-[2018.10.09-18.13.55:359][212]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.10.09-18.13.55:360][212]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.10.09-18.13.55:360][212]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.10.09-18.13.55:360][212]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.10.09-18.13.55:360][212]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.10.09-18.13.55:360][212]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.10.09-18.13.55:360][212]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.10.09-18.13.55:360][212]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.10.09-18.13.55:360][212]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.10.09-18.13.55:360][212]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.10.09-18.13.55:360][212]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.10.09-18.13.55:361][212]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.10.09-18.13.55:362][212]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.10.09-18.13.55:362][212]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.10.09-18.13.55:363][212]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.10.09-18.13.55:363][212]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.10.09-18.13.55:384][212]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.10.09-18.13.55:386][212]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.10.09-18.13.55:387][212]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.10.09-18.13.55:395][212]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.10.09-18.13.55:399][212]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.10.09-18.13.55:405][212]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.10.09-18.13.55:405][212]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.10.09-18.13.55:405][212]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.10.09-18.13.55:405][212]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.10.09-18.13.55:406][212]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.10.09-18.13.55:406][212]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.10.09-18.13.55:407][212]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.10.09-18.13.55:407][212]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.10.09-18.13.55:407][212]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.10.09-18.13.55:407][212]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.10.09-18.13.55:407][212]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.10.09-18.13.55:408][212]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.10.09-18.13.55:408][212]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.10.09-18.13.55:408][212]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.10.09-18.13.55:408][212]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.10.09-18.13.55:409][212]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.10.09-18.13.55:409][212]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.10.09-18.13.55:409][212]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.10.09-18.13.55:410][212]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.10.09-18.13.55:410][212]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.10.09-18.13.55:410][212]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.10.09-18.13.55:410][212]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.10.09-18.13.55:410][212]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.10.09-18.13.55:411][212]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.10.09-18.13.55:411][212]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.10.09-18.13.55:411][212]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.10.09-18.13.55:411][212]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.10.09-18.13.55:411][212]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.10.09-18.13.55:411][212]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.10.09-18.13.55:419][212]LogExit: Exiting.
-[2018.10.09-18.13.55:429][212]Log file closed, 10/09/18 14:13:55
+[2018.10.13-02.12.54:698][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.13-02.12.54:698][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.13-02.12.54:727][  0]LogHAL: Display: Platform has ~ 8 GB [8500101120 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.13-02.12.54:728][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.13-02.12.54:728][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.13-02.12.54:729][  0]LogInit: Computer: KRAKPC
+[2018.10.13-02.12.54:729][  0]LogInit: User: krakp000
+[2018.10.13-02.12.54:729][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.10.13-02.12.54:729][  0]LogInit: High frequency timer resolution =2.143476 MHz
+[2018.10.13-02.12.54:729][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.10.13-02.12.54:729][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.13-02.12.54:729][  0]LogMemory: Process Physical Memory: 100.56 MB used, 100.56 MB peak
+[2018.10.13-02.12.54:729][  0]LogMemory: Process Virtual Memory: 84.48 MB used, 84.48 MB peak
+[2018.10.13-02.12.54:729][  0]LogMemory: Physical Memory: 4196.31 MB used,  3910.02 MB free, 8106.33 MB total
+[2018.10.13-02.12.54:730][  0]LogMemory: Virtual Memory: 4606.95 MB used,  3910.02 MB free, 134217728.00 MB total
+[2018.10.13-02.12.54:820][  0]LogInit: Overriding locale with editor locale configuration option (fr).
+[2018.10.13-02.12.54:820][  0]LogInit: Overriding language with editor culture configuration option ().
+[2018.10.13-02.12.54:820][  0]LogInit: Using OS detected language (en-GB).
+[2018.10.13-02.12.54:829][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.10.13-02.12.55:677][  0]LogStreaming: Display: Took  0.857s to InitEngineTextLocalization.
+[2018.10.13-02.12.55:678][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.13-02.12.55:773][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.13-02.12.55:773][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.13-02.12.56:526][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.13-02.12.56:526][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.13-02.12.56:720][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2018.10.13-02.12.56:720][  0]LogD3D11RHI:       2010/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.13-02.12.56:737][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2018.10.13-02.12.56:737][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.13-02.12.56:744][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.13-02.12.56:745][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.13-02.12.56:745][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.13-02.12.56:808][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.13-02.12.56:808][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.13-02.12.56:808][  0]LogWindows: EnumDisplayDevices:
+[2018.10.13-02.12.56:808][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2018.10.13-02.12.56:809][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:1)
+[2018.10.13-02.12.56:810][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.10.13-02.12.56:811][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.13-02.12.56:811][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2018.10.13-02.12.56:811][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.13-02.12.56:811][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.13-02.12.56:811][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2018.10.13-02.12.56:897][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.13-02.12.56:923][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.13-02.12.56:925][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Intermediate/Shaders/WorkingDirectory/11452/).
+[2018.10.13-02.12.56:926][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/krakp_000/AppData/Local/Temp/UnrealShaderWorkingDir/6D753D394E5869B8A2BB7AA3B1AD88F7/'.
+[2018.10.13-02.12.58:098][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.13-02.12.58:134][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.13-02.12.58:175][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.13-02.12.58:216][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.13-02.12.58:275][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.13-02.12.58:316][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.13-02.12.58:360][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.13-02.12.58:396][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.13-02.12.58:418][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.13-02.12.58:618][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:618][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:618][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:618][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:618][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:618][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:618][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:618][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:618][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:618][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:619][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:619][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:619][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:619][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:619][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:619][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:619][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:619][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.13-02.12.58:624][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.13-02.12.58:749][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.13-02.12.58:749][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.13-02.12.58:825][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.13-02.12.58:825][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.13-02.12.58:869][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.13-02.12.58:909][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.13-02.12.58:951][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.13-02.12.58:993][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.13-02.12.59:014][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.13-02.12.59:014][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.13-02.12.59:245][  0]LogXGEController: Cleaning working directory: C:/Users/krakp_000/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.13-02.12.59:245][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.13-02.12.59:245][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.13-02.12.59:245][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.13-02.13.01:282][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.13-02.13.01:433][  0]LogDerivedDataCache: Loaded boot cache 0.15s 71MB C:/Users/krakp_000/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.13-02.13.01:434][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/krakp_000/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.13-02.13.01:434][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.13-02.13.01:434][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.13-02.13.01:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.13-02.13.01:435][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.13-02.13.01:468][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.13-02.13.01:486][  0]LogDerivedDataCache: Using Local data cache path C:/Users/krakp_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.13-02.13.01:486][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.13-02.13.01:486][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.13-02.13.01:545][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.13-02.13.01:549][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.13-02.13.01:551][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.13-02.13.01:719][  0]LogAssetRegistry: FAssetRegistry took 0.0314 seconds to start up
+[2018.10.13-02.13.02:869][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.13-02.13.03:266][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.13-02.13.03:285][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.13-02.13.03:285][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.13-02.13.03:286][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.13-02.13.03:286][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.13-02.13.03:344][  0]LogNetVersion: GrimShooter 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 682848799)
+[2018.10.13-02.13.05:083][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.509174 seconds
+[2018.10.13-02.13.05:102][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.13-02.13.05:102][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.13-02.13.05:102][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.13-02.13.08:288][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.13-02.13.08:312][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.13-02.13.08:661][  0]SourceControl: Source control is disabled
+[2018.10.13-02.13.08:662][  0]SourceControl: Source control is disabled
+[2018.10.13-02.13.08:667][  0]SourceControl: Source control is disabled
+[2018.10.13-02.13.08:671][  0]SourceControl: Source control is disabled
+[2018.10.13-02.13.09:015][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.13-02.13.09:233][  0]LogOcInput: OculusInput pre-init called
+[2018.10.13-02.13.09:407][  0]LogEngine: Initializing Engine...
+[2018.10.13-02.13.09:411][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.13-02.13.09:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.13-02.13.09:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.13-02.13.09:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.13-02.13.09:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.13-02.13.09:952][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.13-02.13.10:009][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.13-02.13.10:059][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-02.13.10:121][  0]LogInit: FAudioDevice initialized.
+[2018.10.13-02.13.10:121][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.13-02.13.10:444][  0]LogDerivedDataCache: Saved boot cache 0.32s 71MB C:/Users/krakp_000/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.13-02.13.10:457][  0]LogInit: Texture streaming: Enabled
+[2018.10.13-02.13.10:553][  0]LogInit: Transaction tracking system initialized
+[2018.10.13-02.13.10:663][  0]BlueprintLog: New page: Editor Load
+[2018.10.13-02.13.10:991][  0]LocalizationService: Localization service is disabled
+[2018.10.13-02.13.12:007][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.13-02.13.12:008][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.13-02.13.12:008][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.13-02.13.12:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.13-02.13.12:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.13-02.13.12:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.13-02.13.12:009][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.13-02.13.12:398][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/' took 0.03s
+[2018.10.13-02.13.12:398][  0]SourceControl: Source control is disabled
+[2018.10.13-02.13.12:399][  0]Cmd: MAP LOAD FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.13-02.13.12:400][  0]LightingResults: New page: Lighting Build
+[2018.10.13-02.13.12:412][  0]MapCheck: New page: Map Check
+[2018.10.13-02.13.12:412][  0]LightingResults: New page: Lighting Build
+[2018.10.13-02.13.13:591][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.13-02.13.13:605][  0]LogMaterial: Warning: Material /Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.TutorialMaterial needed to have new flag set bUsedWithStaticLighting !
+[2018.10.13-02.13.13:620][  0]LogMaterial: Display: Missing cached shader map for material TutorialMaterial, compiling. 
+[2018.10.13-02.13.13:781][  0]MapCheck: Warning: TutorialMaterial Material /Engine/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.TutorialMaterial was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.10.13-02.13.13:789][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.13-02.13.13:789][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.13-02.13.13:789][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.13-02.13.13:789][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.13-02.13.13:864][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.13-02.13.14:277][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 412,194ms to complete.
+[2018.10.13-02.13.14:322][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 1.923
+[2018.10.13-02.13.14:544][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-02.13.14:573][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-02.13.14:600][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-02.13.14:628][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-02.13.14:660][  0]LogCollectionManager: Loaded 0 collections in 0.011043 seconds
+[2018.10.13-02.13.14:769][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Collections/' took 0.02s
+[2018.10.13-02.13.14:770][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Developers/krakp000/Collections/' took 0.03s
+[2018.10.13-02.13.14:770][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Collections/' took 0.01s
+[2018.10.13-02.13.14:770][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.13-02.13.14:814][  0]LogContentBrowser: Native class hierarchy populated in 0.0432 seconds. Added 2572 classes and 603 folders.
+[2018.10.13-02.13.14:857][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.13-02.13.15:108][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.13-02.13.15:127][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.10.13-02.13.15:166][  0]LogSlate: Took 0.000491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.13-02.13.15:171][  0]LogSlate: Took 0.000592 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.13-02.13.15:188][  0]LogSlate: Took 0.000888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.13-02.13.15:444][  0]LogRenderer: Reallocating scene render targets to support 808x340 Format 10 NumSamples 1 (Frame:1).
+[2018.10.13-02.13.15:771][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.13-02.13.15:771][  0]LogLoad: (Engine Initialization) Total time: 27.64 seconds
+[2018.10.13-02.13.15:772][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.13-02.13.15:865][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.13-02.13.17:221][  8]LogAssetRegistry: Asset discovery search completed in 15.5249 seconds
+[2018.10.13-02.13.17:228][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.13-02.13.17:228][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000129 seconds (updated 0 objects)
+[2018.10.13-02.13.33:906][ 72]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.13-02.19.03:417][154]LogRenderer: Reallocating scene render targets to support 944x420 Format 10 NumSamples 1 (Frame:212).
+[2018.10.13-02.19.04:585][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.13-02.19.14:183][748]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.13-02.19.14:241][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-02.19.14:241][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-02.19.14:256][748]PIE: New page: PIE session: TwinStickExampleMap (12 oct. 2018 18:19:14)
+[2018.10.13-02.19.14:256][748]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.13-02.19.14:272][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015805s)
+[2018.10.13-02.19.14:274][748]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.13-02.19.14:275][748]LogPlayLevel: PIE: World Init took: (0.002352s)
+[2018.10.13-02.19.14:275][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.018490s)
+[2018.10.13-02.19.14:335][748]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-02.19.14:383][748]LogInit: FAudioDevice initialized.
+[2018.10.13-02.19.14:431][748]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.10.13-02.19.14:437][748]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.12-22.19.14
+[2018.10.13-02.19.14:438][748]LogWorld: Bringing up level for play took: 0.004168
+[2018.10.13-02.19.14:472][748]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.10.13-02.19.14:473][748]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0,361
+[2018.10.13-02.19.14:474][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-02.19.20:043][ 45]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-02.19.20:044][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-02.19.20:098][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.13-02.19.20:098][ 45]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-02.19.20:137][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-02.19.20:196][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.10.13-02.19.21:691][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.13-02.19.50:831][632]LogSlate: Took 0.000474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.13-02.19.51:825][632]LogSlate: Took 0.000402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.13-02.20.02:039][632]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.13-02.20.02:045][632]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.20.07:361][632]LogSlate: Window 'Save Content' being destroyed
+[2018.10.13-02.20.07:589][632]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_Bullet_png613281D94D814667C3A1AE9B39E36745.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Bullet_png.uasset'
+[2018.10.13-02.20.07:750][632]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/MainProjectileA17D58864E311F95A22B80B2D28A7A25.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/MainProjectile.uasset'
+[2018.10.13-02.21.04:462][275]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.13-02.21.04:468][275]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.21.06:941][275]LogSlate: Window 'Save Content' being destroyed
+[2018.10.13-02.21.07:149][275]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_East_pngC93901354E8C7D1952726CB3D8759D4D.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_East_png.uasset'
+[2018.10.13-02.21.07:465][275]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickPawnB0925D5549498FE8D457628290AF9424.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.10.13-02.21.23:886][610]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.13-02.21.23:892][610]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.22.07:987][610]LogSlate: Window 'Save Content' being destroyed
+[2018.10.13-02.22.08:227][610]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_North_png4B48677D43EBF1A0B147288507621869.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_North_png.uasset'
+[2018.10.13-02.22.08:559][610]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickPawn2FEE53D94532B1812D2A42822ECE40C8.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.10.13-02.22.18:939][740]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.13-02.22.18:945][740]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.22.24:877][740]LogSlate: Window 'Save Content' being destroyed
+[2018.10.13-02.22.25:083][740]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_South_pngF8C26E5A427C4C6F02D51490140D42D0.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_South_png.uasset'
+[2018.10.13-02.22.25:483][740]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickPawnA57D2B1D420D0091D80EF185B9D2FCBD.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.10.13-02.22.26:621][740]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap633BED674878860C1A81E098AFC0146D.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2018.10.13-02.22.26:764][740]LogFileHelpers: Saving map 'TwinStickExampleMap' took 1.237
+[2018.10.13-02.23.04:486][200]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.13-02.23.04:492][200]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.23.06:808][200]LogSlate: Window 'Save Content' being destroyed
+[2018.10.13-02.23.07:012][200]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_West_png8E77EF1047A719FAEB16259CAAA38CF7.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_West_png.uasset'
+[2018.10.13-02.23.07:355][200]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickPawn90D5CDBB4277C832288BE29E798CD7E3.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.10.13-02.25.01:051][868]LogFactory: FactoryCreateFile: PaperSpriteSheet with PaperSpriteSheetReimportFactory (0 1 C:\Users\krakp_000\OneDrive\Bureau\GrimShooter Temporary Files\Bullet_Charge_Sprite_Sheet.paper2dsprites)
+[2018.10.13-02.25.01:052][868]LogPaperSpriteSheetImporter: Warning: Unexpected 'app' named 'https://www.codeandweb.com/texturepacker' while parsing sprite descriptor file 'Bullet_Charge_Sprite_Sheet'.  Parsing will continue but the format may not be fully supported
+[2018.10.13-02.25.01:060][868]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\krakp_000\OneDrive\Bureau\GrimShooter Temporary Files/Bullet_Charge_Sprite_Sheet.png)
+[2018.10.13-02.25.01:068][868]LogTexture: Display: Building textures: Bullet_Charge_Sprite_Sheet (AutoDXT, 336X48)
+[2018.10.13-02.25.01:123][868]LogTexture: Display: Building textures: Bullet_Charge_Sprite_Sheet (BGRA8, 336X48)
+[2018.10.13-02.25.35:201][255]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.25.39:194][373]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.25.42:312][454]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.25.45:078][518]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.25.48:080][594]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.25.50:921][662]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.25.53:842][730]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-02.26.06:532][357]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_11A3778174E293173C12BA9B5DE6F1A21.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_1.uasset'
+[2018.10.13-02.26.13:375][670]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_2C8A29D404373A4CE04BAAE81F5C87BA0.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_2.uasset'
+[2018.10.13-02.26.19:535][941]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_39AF64FA141DC4814218311B9828F041B.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_3.uasset'
+[2018.10.13-02.26.27:353][301]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_49D04C5FB4AD87BDA7B9A509D6739F4BF.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_4.uasset'
+[2018.10.13-02.26.33:687][579]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_5C17A04B148E5E0A03924FDBD5C7100A9.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_5.uasset'
+[2018.10.13-02.26.39:300][832]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_6F69DE0CB4DD5A79984060A9AD3527FF6.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_6.uasset'
+[2018.10.13-02.26.45:524][114]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_7799BE54B440ADD72F55F9A8EBFF81AED.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_7.uasset'
+[2018.10.13-02.28.33:581][146]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMapC1EF7B524B19C1D56AA61FB4A1416607.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2018.10.13-02.28.34:345][146]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap_BuiltData6E661AF7422BB5EDE47784BEDD8DC400.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2018.10.13-02.38.33:537][106]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.050
+[2018.10.13-02.38.33:551][106]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Main_Character/Main_Bullet_png] ([1] browsable assets)...
+[2018.10.13-02.38.33:569][106]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Main_Character/Main_Bullet_png.Main_Bullet_png]
+[2018.10.13-02.38.33:569][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Main_Character/Main_Bullet_png]
+[2018.10.13-02.38.33:611][106]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_Bullet_png_Auto1DF51DB744AF87A9EFD3744B90C35C0D0.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Main_Character/Main_Bullet_png_Auto1.uasset'
+[2018.10.13-02.38.33:645][106]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Main_Character/Main_East_png] ([1] browsable assets)...
+[2018.10.13-02.38.33:665][106]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Main_Character/Main_East_png.Main_East_png]
+[2018.10.13-02.38.33:665][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Main_Character/Main_East_png]
+[2018.10.13-02.38.33:697][106]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_East_png_Auto1575C54BD4BE00D29CCAFE98649C403D6.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Main_Character/Main_East_png_Auto1.uasset'
+[2018.10.13-02.38.33:722][106]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Main_Character/Main_North_png] ([1] browsable assets)...
+[2018.10.13-02.38.33:734][106]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Main_Character/Main_North_png.Main_North_png]
+[2018.10.13-02.38.33:734][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Main_Character/Main_North_png]
+[2018.10.13-02.38.33:762][106]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_North_png_Auto14317225043B3CB1814940183B7A3C5CD.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Main_Character/Main_North_png_Auto1.uasset'
+[2018.10.13-02.38.33:783][106]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Main_Character/Main_South_png] ([1] browsable assets)...
+[2018.10.13-02.38.33:803][106]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Main_Character/Main_South_png.Main_South_png]
+[2018.10.13-02.38.33:803][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Main_Character/Main_South_png]
+[2018.10.13-02.38.33:846][106]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_South_png_Auto15B284BE549AEBC7F6F5F1DA7866C8D46.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Main_Character/Main_South_png_Auto1.uasset'
+[2018.10.13-02.38.33:867][106]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Main_Character/Main_West_png] ([1] browsable assets)...
+[2018.10.13-02.38.33:889][106]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Main_Character/Main_West_png.Main_West_png]
+[2018.10.13-02.38.33:889][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Main_Character/Main_West_png]
+[2018.10.13-02.38.33:920][106]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_West_png_Auto1004203DF41E109F08E4B8692B970ABF7.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Main_Character/Main_West_png_Auto1.uasset'
+[2018.10.13-02.38.33:942][106]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TwinStickBP/2D/Bullet_Charge_Sprite_Sheet] ([1] browsable assets)...
+[2018.10.13-02.38.33:942][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Bullet_Charge_Sprite_Sheet]
+[2018.10.13-02.38.33:966][106]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Auto1C70FD02B455CCFE431375ABE4CAE18D6.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Bullet_Charge_Sprite_Sheet_Auto1.uasset'
+[2018.10.13-02.38.33:985][106]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge_Sprite_Sheet] ([1] browsable assets)...
+[2018.10.13-02.38.33:988][106]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TwinStickBP/2D/Textures/Bullet_Charge_Sprite_Sheet.Bullet_Charge_Sprite_Sheet]
+[2018.10.13-02.38.33:988][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge_Sprite_Sheet]
+[2018.10.13-02.38.34:010][106]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Auto1F096FED54F0B8EB0C69CC493DF41293A.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge_Sprite_Sheet_Auto1.uasset'
+[2018.10.13-02.38.34:021][106]LogFileHelpers: Auto-saving content packages took 0.482
+[2018.10.13-03.12.44:555][689]LogFactory: FactoryCreateFile: PaperSpriteSheet with PaperSpriteSheetReimportFactory (0 1 C:\Users\krakp_000\OneDrive\Bureau\GrimShooter Temporary Files\Reload Charge\Reload_Charge_Sprite_Sheet.paper2dsprites)
+[2018.10.13-03.12.44:556][689]LogPaperSpriteSheetImporter: Warning: Unexpected 'app' named 'https://www.codeandweb.com/texturepacker' while parsing sprite descriptor file 'Reload_Charge_Sprite_Sheet'.  Parsing will continue but the format may not be fully supported
+[2018.10.13-03.12.44:572][689]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\krakp_000\OneDrive\Bureau\GrimShooter Temporary Files\Reload Charge/Reload_Charge_Sprite_Sheet.png)
+[2018.10.13-03.12.44:662][689]LogTexture: Display: Building textures: Reload_Charge_Sprite_Sheet (AutoDXT, 288X48)
+[2018.10.13-03.12.45:052][689]LogTexture: Display: Building textures: Reload_Charge_Sprite_Sheet (BGRA8, 288X48)
+[2018.10.13-03.13.23:994][  8]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.13.32:118][ 79]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.13.35:858][162]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.13.40:029][290]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.13.43:946][391]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.13.48:069][487]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.14.07:967][289]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.14.11:497][361]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.14.15:299][442]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.14.23:663][546]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.14.31:134][687]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.14.35:881][820]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.14.41:277][993]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.14.51:445][ 60]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.15.16:104][317]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.040
+[2018.10.13-03.15.16:116][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Reload_Charge_Sprite_Sheet] ([1] browsable assets)...
+[2018.10.13-03.15.16:122][317]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TwinStickBP/2D/Textures/Reload_Charge_Sprite_Sheet.Reload_Charge_Sprite_Sheet]
+[2018.10.13-03.15.16:122][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Reload_Charge_Sprite_Sheet]
+[2018.10.13-03.15.16:148][317]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_Sprite_Sheet_Auto2325F83974154D7F8541AC6B3A5C9DE3F.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Reload_Charge_Sprite_Sheet_Auto2.uasset'
+[2018.10.13-03.15.16:169][317]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TwinStickBP/2D/Reload_Charge_Sprite_Sheet] ([1] browsable assets)...
+[2018.10.13-03.15.16:170][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Reload_Charge_Sprite_Sheet]
+[2018.10.13-03.15.16:189][317]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_Sprite_Sheet_Auto267A47987494BEDF38EEB38A649A5AEBA.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Reload_Charge_Sprite_Sheet_Auto2.uasset'
+[2018.10.13-03.15.16:223][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_1_png] ([1] browsable assets)...
+[2018.10.13-03.15.16:301][317]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_1_png.Reload_Charge_1_png]
+[2018.10.13-03.15.16:301][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_1_png]
+[2018.10.13-03.15.16:331][317]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_1_png_Auto2405D80E84A53C02CB867CBB3D2E13E9D.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_1_png_Auto2.uasset'
+[2018.10.13-03.15.16:351][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_2_png] ([1] browsable assets)...
+[2018.10.13-03.15.16:368][317]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_2_png.Reload_Charge_2_png]
+[2018.10.13-03.15.16:368][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_2_png]
+[2018.10.13-03.15.16:391][317]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_2_png_Auto238E2BA064E14E8D85132ADA55BB16792.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_2_png_Auto2.uasset'
+[2018.10.13-03.15.16:412][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_3_png] ([1] browsable assets)...
+[2018.10.13-03.15.16:428][317]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_3_png.Reload_Charge_3_png]
+[2018.10.13-03.15.16:428][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_3_png]
+[2018.10.13-03.15.16:453][317]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_3_png_Auto24ACA73EF4637BC7CA28423BCE19E6CA5.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_3_png_Auto2.uasset'
+[2018.10.13-03.15.16:476][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_4_png] ([1] browsable assets)...
+[2018.10.13-03.15.16:491][317]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_4_png.Reload_Charge_4_png]
+[2018.10.13-03.15.16:491][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_4_png]
+[2018.10.13-03.15.16:521][317]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_4_png_Auto27819D4594C6048807D1EF8AF839D4DF9.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_4_png_Auto2.uasset'
+[2018.10.13-03.15.16:541][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_5_png] ([1] browsable assets)...
+[2018.10.13-03.15.16:557][317]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_5_png.Reload_Charge_5_png]
+[2018.10.13-03.15.16:558][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_5_png]
+[2018.10.13-03.15.16:585][317]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_5_png_Auto284C8FF944154E5D6B5AAC89FFED26095.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_5_png_Auto2.uasset'
+[2018.10.13-03.15.16:605][317]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_6_png] ([1] browsable assets)...
+[2018.10.13-03.15.16:621][317]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_6_png.Reload_Charge_6_png]
+[2018.10.13-03.15.16:621][317]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_6_png]
+[2018.10.13-03.15.16:649][317]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_6_png_Auto2E12E93FD42E98E019ECB0B9E729C637C.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_6_png_Auto2.uasset'
+[2018.10.13-03.15.16:662][317]LogFileHelpers: Auto-saving content packages took 0.556
+[2018.10.13-03.15.33:948][851]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.15.46:725][252]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Reload Charge/Reload_Charge_Sprite_Sheet.png]
+[2018.10.13-03.15.46:747][252]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Reload Charge/Reload_Charge_Sprite_Sheet.png)
+[2018.10.13-03.15.46:757][252]LogTexture: Display: Building textures: Reload_Charge_Sprite_Sheet (BGRA8, 288X48)
+[2018.10.13-03.15.46:766][252]LogEditorFactories: -- imported successfully
+[2018.10.13-03.15.57:225][582]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.13-03.20.40:727][477]LogFactory: FactoryCreateFile: PaperSpriteSheet with PaperSpriteSheetReimportFactory (0 1 C:\Users\krakp_000\OneDrive\Bureau\GrimShooter Temporary Files\Bullet Charge\Bullet_Charge_Sprite_Sheet.paper2dsprites)
+[2018.10.13-03.20.40:727][477]LogPaperSpriteSheetImporter: Warning: Unexpected 'app' named 'https://www.codeandweb.com/texturepacker' while parsing sprite descriptor file 'Bullet_Charge_Sprite_Sheet'.  Parsing will continue but the format may not be fully supported
+[2018.10.13-03.20.40:734][477]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\krakp_000\OneDrive\Bureau\GrimShooter Temporary Files\Bullet Charge/Bullet_Charge_Sprite_Sheet.png)
+[2018.10.13-03.20.40:762][477]LogTexture: Display: Building textures: Bullet_Charge_Sprite_Sheet (AutoDXT, 288X48)
+[2018.10.13-03.20.40:840][477]LogTexture: Display: Building textures: Bullet_Charge_Sprite_Sheet (BGRA8, 288X48)
+[2018.10.13-03.20.49:744][631]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_Sprite_Sheet.png]
+[2018.10.13-03.20.49:745][631]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_Sprite_Sheet.png)
+[2018.10.13-03.20.49:786][631]LogTexture: Display: Building textures: Bullet_Charge_Sprite_Sheet (BGRA8, 288X48)
+[2018.10.13-03.20.49:853][631]LogEditorFactories: -- imported successfully
+[2018.10.13-03.21.05:035][219]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_1_pngB58C2EA74B691A9B805243AC8E757D81.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_1_png.uasset'
+[2018.10.13-03.21.07:704][313]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_2_png46F4C2C4498C23B2284BD2A161195A3A.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_2_png.uasset'
+[2018.10.13-03.21.11:788][463]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_3_png1069034F4A198D49E65C7198EC549DCD.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_3_png.uasset'
+[2018.10.13-03.21.15:266][606]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_4_pngC3C8AFA54FD63EBA0E1D4591B427FA5A.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_4_png.uasset'
+[2018.10.13-03.21.21:497][800]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_5_pngE9259B724A5D612C978AD9B193C80F6F.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_5_png.uasset'
+[2018.10.13-03.21.24:505][885]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_6_pngC75DBE064EEC509D353A86AF96146AAC.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_6_png.uasset'
+[2018.10.13-03.21.49:884][ 88]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_11F6B23AD414C31FD0DE10B9960551CF6.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_1.uasset'
+[2018.10.13-03.21.57:963][424]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_2056C3FC9444724B5D1FC3983A0B9FE9F.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_2.uasset'
+[2018.10.13-03.22.00:689][497]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMapD958AAA3444D107103117686A27602B3.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2018.10.13-03.22.01:728][497]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap_BuiltData6C1B7F4E41F742183F4E6D864A52B762.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2018.10.13-03.22.07:559][741]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_39943331A4295E6DD38FEF7A75ECAE844.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_3.uasset'
+[2018.10.13-03.22.12:810][922]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_497BD4E3F4C366D39810FE0A565B847DF.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_4.uasset'
+[2018.10.13-03.22.18:014][137]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_550ED9FF04554783E0F88F38FBC19C1A1.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_5.uasset'
+[2018.10.13-03.22.23:111][334]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_6896A5C1F45DE892AFFF714835D18E2A5.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Reload_Charge/Reload_Charge_6.uasset'
+[2018.10.13-03.22.48:972][550]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_WestC70F83C14BB25DDA27978D8033F9C7AE.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Character/Main_West.uasset'
+[2018.10.13-03.22.49:558][550]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_West_png8C6C127D4CB3477159F1169926F559C0.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_West_png.uasset'
+[2018.10.13-03.22.50:017][550]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickPawn026E92C147AC26A00B2F448C28E03FA6.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.10.13-03.22.54:126][699]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_South2FE35778496F810638EC9E8C0D0D8A48.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Character/Main_South.uasset'
+[2018.10.13-03.22.54:772][699]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_South_png006FA930458917B2A239F4A75F04CD7E.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_South_png.uasset'
+[2018.10.13-03.22.55:172][699]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickPawnCC155FD847BAD1E9FDD00383FF577808.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.10.13-03.23.01:302][949]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_NorthFE5A57D8419494E4A618B99D9A5298AD.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Character/Main_North.uasset'
+[2018.10.13-03.23.01:932][949]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_North_png657B1913426FC44E14BD41A2F7AA934E.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_North_png.uasset'
+[2018.10.13-03.23.02:388][949]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickPawnCF73A6F246374A1BA8D793B2908A5961.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.10.13-03.23.07:825][153]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_East28A7C95F4A4328CC394B168ECA141640.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Character/Main_East.uasset'
+[2018.10.13-03.23.08:423][153]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_East_png029CB5444418C333D455BA9E4793A8EE.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_East_png.uasset'
+[2018.10.13-03.23.08:895][153]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickPawn0488726A40D454DA8F1802A5D7567643.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2018.10.13-03.23.14:551][359]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_Bullet6B3EE3AC49E08972FF3BA4AC07153EDD.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Character/Main_Bullet.uasset'
+[2018.10.13-03.23.15:143][359]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_Bullet_pngA8AD8E70444EC1C15ECA0A9E16878E10.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Bullet_png.uasset'
+[2018.10.13-03.23.15:376][359]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/MainProjectileB9CADFA94B4EF22808CA78A8E3316768.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Blueprints/MainProjectile.uasset'
+[2018.10.13-03.23.30:887][ 82]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_6060995C64B1AA75B2D851CB8D00293A5.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_6.uasset'
+[2018.10.13-03.23.37:899][381]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_5B9B65E984763F1AF715DDBB7266DC65C.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_5.uasset'
+[2018.10.13-03.23.42:944][574]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_4D410AC0D436038E8BF01ABBD625675F8.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_4.uasset'
+[2018.10.13-03.23.49:364][834]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_35BE3EA5A49692282021F3FB2360396C4.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_3.uasset'
+[2018.10.13-03.23.54:585][ 29]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_2BE80F3364997917200F151A54D8BE5E3.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_2.uasset'
+[2018.10.13-03.23.59:328][206]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_1EFF9BC1F49053921A2E31CB8125B7F78.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_1.uasset'
+[2018.10.13-03.24.14:642][888]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_ChargeD715C3004EDFB653746217BDE566F444.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Bullet_Charge.uasset'
+[2018.10.13-03.24.24:069][293]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge52A5DF2141410F7147E523843B2E0F86.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Reload_Charge.uasset'
+[2018.10.13-03.24.25:575][335]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.13-03.24.25:656][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.24.25:657][335]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.13-03.24.25:685][335]LogPlayLevel: [PlayLevel] Compiling MainProjectile before play...
+[2018.10.13-03.24.25:822][335]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2018.10.13-03.24.26:279][335]LogPlayLevel: PlayLevel: Blueprint regeneration took 622 ms (2 blueprints)
+[2018.10.13-03.24.26:280][335]PIE: New page: PIE session: TwinStickExampleMap (12 oct. 2018 19:24:26)
+[2018.10.13-03.24.26:280][335]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.13-03.24.26:301][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021293s)
+[2018.10.13-03.24.26:305][335]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.13-03.24.26:307][335]LogPlayLevel: PIE: World Init took: (0.004875s)
+[2018.10.13-03.24.26:307][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.026608s)
+[2018.10.13-03.24.26:379][335]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-03.24.26:435][335]LogInit: FAudioDevice initialized.
+[2018.10.13-03.24.26:502][335]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.10.13-03.24.26:507][335]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.12-23.24.26
+[2018.10.13-03.24.26:508][335]LogWorld: Bringing up level for play took: 0.004531
+[2018.10.13-03.24.26:525][335]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0,413
+[2018.10.13-03.24.26:526][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.24.29:674][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.24.29:675][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-03.24.29:792][479]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.13-03.24.29:793][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.24.29:846][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-03.24.30:448][480]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.10.13-03.24.44:312][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.13-03.24.45:038][167]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap2AEA90A54801041E0B2F2B873EE3BA99.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2018.10.13-03.24.45:975][167]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap_BuiltData26550F894C89876329C184918714D9F1.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2018.10.13-03.24.53:205][486]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.13-03.24.53:205][486]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/HUD_Blueprints.HUD_Blueprints
+[2018.10.13-03.24.55:229][486]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0041 seconds. Added 116 classes and 0 folders.
+[2018.10.13-03.24.58:327][486]LogSlate: Took 0.000551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.13-03.24.58:611][487]LogSlate: Took 0.000578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.13-03.25.03:470][660]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event Receive Draw HUD  and was replaced as a Custom Event!
+[2018.10.13-03.25.50:365][986]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\krakp_000\OneDrive\Bureau\GrimShooter Temporary Files\Bullet Charge\Bullet_Charge_1.png)
+[2018.10.13-03.25.50:405][986]LogTexture: Display: Building textures: Bullet_Charge_1 (AutoDXT, 48X48)
+[2018.10.13-03.26.01:159][ 33]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\krakp_000\OneDrive\Bureau\GrimShooter Temporary Files\Reload Charge\Reload_Charge.png)
+[2018.10.13-03.26.01:194][ 33]LogTexture: Display: Building textures: Reload_Charge (AutoDXT, 48X48)
+[2018.10.13-03.27.53:865][576]BlueprintLog: New page: Compile HUD_Blueprints
+[2018.10.13-03.27.55:725][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD_Blueprints" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset" SILENT=true
+[2018.10.13-03.27.56:019][598]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/HUD_Blueprints03FD5B1844C56107AF1CEC835AF0C3FB.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset'
+[2018.10.13-03.27.57:051][626]LogSlate: Window 'HUD_Blueprints' being destroyed
+[2018.10.13-03.27.57:065][626]LogSlate: Window 'HUD_Blueprints' being destroyed
+[2018.10.13-03.27.58:143][658]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.13-03.27.58:211][658]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.27.58:211][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-03.27.58:211][658]PIE: New page: PIE session: TwinStickExampleMap (12 oct. 2018 19:27:58)
+[2018.10.13-03.27.58:212][658]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.13-03.27.58:227][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014795s)
+[2018.10.13-03.27.58:228][658]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.13-03.27.58:229][658]LogPlayLevel: PIE: World Init took: (0.002020s)
+[2018.10.13-03.27.58:229][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.017248s)
+[2018.10.13-03.27.58:347][658]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-03.27.58:406][658]LogInit: FAudioDevice initialized.
+[2018.10.13-03.27.58:453][658]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.10.13-03.27.58:457][658]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.12-23.27.58
+[2018.10.13-03.27.58:457][658]LogWorld: Bringing up level for play took: 0.003163
+[2018.10.13-03.27.58:473][658]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0,361
+[2018.10.13-03.27.58:473][658]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.28.02:219][806]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.28.02:219][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-03.28.02:268][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.13-03.28.02:269][806]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.28.02:331][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-03.28.02:391][807]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.10.13-03.28.04:480][903]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-03.28.08:987][ 89]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.13-03.28.08:987][ 89]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/HUD_Blueprints.HUD_Blueprints
+[2018.10.13-03.28.17:527][308]BlueprintLog: New page: Compile HUD_Blueprints
+[2018.10.13-03.28.19:258][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD_Blueprints" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset" SILENT=true
+[2018.10.13-03.28.19:544][331]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/HUD_Blueprints64BBE9E24A21205E555695A9D342276E.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset'
+[2018.10.13-03.28.20:659][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.13-03.28.20:756][367]LogSlate: Window 'HUD_Blueprints' being destroyed
+[2018.10.13-03.28.20:767][367]LogSlate: Window 'HUD_Blueprints' being destroyed
+[2018.10.13-03.28.21:922][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.13-03.28.22:091][401]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.13-03.28.22:136][401]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.28.22:136][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-03.28.22:137][401]PIE: New page: PIE session: TwinStickExampleMap (12 oct. 2018 19:28:22)
+[2018.10.13-03.28.22:137][401]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.13-03.28.22:150][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013413s)
+[2018.10.13-03.28.22:153][401]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.13-03.28.22:153][401]LogPlayLevel: PIE: World Init took: (0.002653s)
+[2018.10.13-03.28.22:153][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.016455s)
+[2018.10.13-03.28.22:339][401]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-03.28.22:392][401]LogInit: FAudioDevice initialized.
+[2018.10.13-03.28.22:435][401]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.10.13-03.28.22:439][401]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.12-23.28.22
+[2018.10.13-03.28.22:440][401]LogWorld: Bringing up level for play took: 0.003240
+[2018.10.13-03.28.22:455][401]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0,342
+[2018.10.13-03.28.22:455][401]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.28.28:689][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.28.28:690][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-03.28.28:740][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.13-03.28.28:740][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.28.28:819][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-03.28.28:873][693]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.10.13-03.28.30:986][792]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-03.28.34:183][927]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.13-03.28.34:183][927]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/HUD_Blueprints.HUD_Blueprints
+[2018.10.13-03.29.30:297][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-03.30.22:669][ 87]BlueprintLog: New page: Compile HUD_Blueprints
+[2018.10.13-03.30.24:528][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD_Blueprints" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset" SILENT=true
+[2018.10.13-03.30.24:842][103]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/HUD_Blueprints6C33BE984E4DAB3609BDA79C49B8E0C9.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset'
+[2018.10.13-03.30.27:133][164]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.13-03.30.27:215][166]LogSlate: Window 'HUD_Blueprints' being destroyed
+[2018.10.13-03.30.27:226][166]LogSlate: Window 'HUD_Blueprints' being destroyed
+[2018.10.13-03.30.28:190][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.13-03.30.29:044][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.13-03.30.29:165][227]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.13-03.30.29:217][227]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.30.29:217][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.13-03.30.29:217][227]PIE: New page: PIE session: TwinStickExampleMap (12 oct. 2018 19:30:29)
+[2018.10.13-03.30.29:218][227]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.13-03.30.29:244][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026339s)
+[2018.10.13-03.30.29:246][227]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.13-03.30.29:247][227]LogPlayLevel: PIE: World Init took: (0.002560s)
+[2018.10.13-03.30.29:247][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.029316s)
+[2018.10.13-03.30.29:342][227]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.13-03.30.29:405][227]LogInit: FAudioDevice initialized.
+[2018.10.13-03.30.29:450][227]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.10.13-03.30.29:454][227]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.12-23.30.29
+[2018.10.13-03.30.29:455][227]LogWorld: Bringing up level for play took: 0.003835
+[2018.10.13-03.30.29:471][227]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0,641
+[2018.10.13-03.30.29:471][227]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.30.33:938][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.30.33:941][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-03.30.33:993][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.13-03.30.33:993][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.13-03.30.34:049][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.13-03.30.34:108][425]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.13-03.31.05:449][901]LogEditorViewport: Clicking on Actor (context menu): AtmosphericFog (Atmospheric Fog)
+[2018.10.13-03.31.05:853][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.13-03.31.31:653][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.13-03.31.35:540][153]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_ChargeE921F4E34E874571F3FD438208D8DC3A.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge.uasset'
+[2018.10.13-03.31.36:133][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD_Blueprints" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset" SILENT=true
+[2018.10.13-03.31.36:438][153]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/HUD_BlueprintsB83AEDE94FBC5D937EB0AF97F21B0007.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset'
+[2018.10.13-03.31.41:340][296]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap52EC8AA14B9265BA569FC683E78C11DF.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2018.10.13-03.31.42:244][296]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap_BuiltDataA6F1159D46681D843D1152867B7CE262.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2018.10.13-03.31.46:223][351]LogSlate: Window 'Save Content' being destroyed
+[2018.10.13-03.31.46:314][351]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_SheetDB9814F64461494FEFDF229A35A8F362.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge_Sprite_Sheet.uasset'
+[2018.10.13-03.31.46:377][351]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge24FDF97240479BC5DC36F088F754F9A4.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Reload_Charge.uasset'
+[2018.10.13-03.31.46:460][351]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Reload_Charge_Sprite_SheetE87F2FC64AF091C7F7EA689704F0B272.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Reload_Charge_Sprite_Sheet.uasset'
+[2018.10.13-03.31.46:720][351]LogSlate: Window 'GrimShooter - Unreal Editor' being destroyed
+[2018.10.13-03.31.47:412][352]Cmd: QUIT_EDITOR
+[2018.10.13-03.31.48:326][352]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.13-03.31.48:375][352]LogExit: Preparing to exit.
+[2018.10.13-03.31.49:495][352]LogExit: Editor shut down
+[2018.10.13-03.31.49:504][352]LogExit: Transaction tracking system shut down
+[2018.10.13-03.31.54:147][352]LogExit: Object subsystem successfully closed.
+[2018.10.13-03.31.54:197][352]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.13-03.31.54:273][352]LogD3D11RHI: Shutdown
+[2018.10.13-03.31.54:274][352]LogD3D11RHI: CleanupD3DDevice
+[2018.10.13-03.31.54:394][352]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.13-03.31.54:658][352]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2018.10.13-03.31.54:658][352]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (612)
+[2018.10.13-03.31.54:658][352]LogModuleManager: Shutting down and abandoning module Voice (610)
+[2018.10.13-03.31.54:659][352]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (608)
+[2018.10.13-03.31.54:659][352]LogModuleManager: Shutting down and abandoning module SceneOutliner (606)
+[2018.10.13-03.31.54:659][352]LogModuleManager: Shutting down and abandoning module AddContentDialog (604)
+[2018.10.13-03.31.54:676][352]LogModuleManager: Shutting down and abandoning module WidgetCarousel (603)
+[2018.10.13-03.31.54:677][352]LogModuleManager: Shutting down and abandoning module EditorWidgets (600)
+[2018.10.13-03.31.54:677][352]LogModuleManager: Shutting down and abandoning module CollectionManager (598)
+[2018.10.13-03.31.54:678][352]LogModuleManager: Shutting down and abandoning module LauncherPlatform (596)
+[2018.10.13-03.31.54:678][352]LogModuleManager: Shutting down and abandoning module StatsViewer (594)
+[2018.10.13-03.31.54:680][352]LogModuleManager: Shutting down and abandoning module FoliageEdit (592)
+[2018.10.13-03.31.54:680][352]LogModuleManager: Shutting down and abandoning module LandscapeEditor (590)
+[2018.10.13-03.31.54:681][352]LogModuleManager: Shutting down and abandoning module MeshPaintMode (588)
+[2018.10.13-03.31.54:681][352]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (586)
+[2018.10.13-03.31.54:681][352]LogModuleManager: Shutting down and abandoning module ActorPickerMode (584)
+[2018.10.13-03.31.54:681][352]LogModuleManager: Shutting down and abandoning module GeometryMode (582)
+[2018.10.13-03.31.54:681][352]LogModuleManager: Shutting down and abandoning module TextureAlignMode (580)
+[2018.10.13-03.31.54:681][352]LogModuleManager: Shutting down and abandoning module BspMode (578)
+[2018.10.13-03.31.54:681][352]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (576)
+[2018.10.13-03.31.54:681][352]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (574)
+[2018.10.13-03.31.54:682][352]LogModuleManager: Shutting down and abandoning module AutomationWorker (572)
+[2018.10.13-03.31.54:682][352]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (570)
+[2018.10.13-03.31.54:682][352]LogModuleManager: Shutting down and abandoning module SequenceRecorder (569)
+[2018.10.13-03.31.54:682][352]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (566)
+[2018.10.13-03.31.54:682][352]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (564)
+[2018.10.13-03.31.54:682][352]LogModuleManager: Shutting down and abandoning module PlacementMode (563)
+[2018.10.13-03.31.54:682][352]LogModuleManager: Shutting down and abandoning module MaterialEditor (562)
+[2018.10.13-03.31.54:682][352]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (558)
+[2018.10.13-03.31.54:683][352]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (556)
+[2018.10.13-03.31.54:683][352]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (554)
+[2018.10.13-03.31.54:683][352]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (552)
+[2018.10.13-03.31.54:683][352]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (550)
+[2018.10.13-03.31.54:683][352]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (548)
+[2018.10.13-03.31.54:683][352]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (546)
+[2018.10.13-03.31.54:683][352]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (544)
+[2018.10.13-03.31.54:685][352]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (542)
+[2018.10.13-03.31.54:685][352]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (540)
+[2018.10.13-03.31.54:685][352]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (538)
+[2018.10.13-03.31.54:686][352]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (536)
+[2018.10.13-03.31.54:686][352]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (534)
+[2018.10.13-03.31.54:687][352]LogModuleManager: Shutting down and abandoning module CharacterAI (532)
+[2018.10.13-03.31.54:687][352]LogModuleManager: Shutting down and abandoning module SmartSnapping (530)
+[2018.10.13-03.31.54:687][352]LogModuleManager: Shutting down and abandoning module SessionServices (528)
+[2018.10.13-03.31.54:688][352]LogModuleManager: Shutting down and abandoning module ViewportSnapping (526)
+[2018.10.13-03.31.54:688][352]LogModuleManager: Shutting down and abandoning module ViewportInteraction (524)
+[2018.10.13-03.31.54:688][352]LogModuleManager: Shutting down and abandoning module ClothPainter (522)
+[2018.10.13-03.31.54:688][352]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (521)
+[2018.10.13-03.31.54:688][352]LogModuleManager: Shutting down and abandoning module LogVisualizer (518)
+[2018.10.13-03.31.54:688][352]LogModuleManager: Shutting down and abandoning module IntroTutorials (516)
+[2018.10.13-03.31.54:689][352]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (515)
+[2018.10.13-03.31.54:689][352]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (512)
+[2018.10.13-03.31.54:689][352]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (510)
+[2018.10.13-03.31.54:689][352]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (508)
+[2018.10.13-03.31.54:689][352]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (506)
+[2018.10.13-03.31.54:689][352]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (505)
+[2018.10.13-03.31.55:755][352]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (502)
+[2018.10.13-03.31.55:755][352]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (500)
+[2018.10.13-03.31.55:755][352]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (498)
+[2018.10.13-03.31.55:755][352]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (496)
+[2018.10.13-03.31.55:756][352]LogModuleManager: Shutting down and abandoning module InputBindingEditor (494)
+[2018.10.13-03.31.55:756][352]LogModuleManager: Shutting down and abandoning module MergeActors (492)
+[2018.10.13-03.31.55:756][352]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (490)
+[2018.10.13-03.31.55:756][352]LogModuleManager: Shutting down and abandoning module LocalizationService (489)
+[2018.10.13-03.31.55:756][352]LogModuleManager: Shutting down and abandoning module HardwareTargeting (486)
+[2018.10.13-03.31.55:756][352]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (484)
+[2018.10.13-03.31.55:756][352]LogModuleManager: Shutting down and abandoning module UndoHistory (482)
+[2018.10.13-03.31.55:756][352]LogModuleManager: Shutting down and abandoning module XmlParser (480)
+[2018.10.13-03.31.55:757][352]LogModuleManager: Shutting down and abandoning module Blutility (478)
+[2018.10.13-03.31.55:757][352]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (476)
+[2018.10.13-03.31.55:757][352]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (475)
+[2018.10.13-03.31.55:758][352]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (472)
+[2018.10.13-03.31.55:758][352]LogModuleManager: Shutting down and abandoning module SettingsEditor (470)
+[2018.10.13-03.31.55:758][352]LogModuleManager: Shutting down and abandoning module ProjectLauncher (468)
+[2018.10.13-03.31.55:758][352]LogModuleManager: Shutting down and abandoning module SessionFrontend (466)
+[2018.10.13-03.31.55:758][352]LogModuleManager: Shutting down and abandoning module ProfilerClient (464)
+[2018.10.13-03.31.55:759][352]LogModuleManager: Shutting down and abandoning module DeviceManager (462)
+[2018.10.13-03.31.55:759][352]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (461)
+[2018.10.13-03.31.55:854][352]LogModuleManager: Shutting down and abandoning module AutomationController (458)
+[2018.10.13-03.31.55:854][352]LogModuleManager: Shutting down and abandoning module AutomationWindow (456)
+[2018.10.13-03.31.55:854][352]LogModuleManager: Shutting down and abandoning module Layers (454)
+[2018.10.13-03.31.55:854][352]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (452)
+[2018.10.13-03.31.55:854][352]LogModuleManager: Shutting down and abandoning module DetailCustomizations (450)
+[2018.10.13-03.31.55:854][352]LogModuleManager: Shutting down and abandoning module PackagesDialog (448)
+[2018.10.13-03.31.55:855][352]LogModuleManager: Shutting down and abandoning module Persona (446)
+[2018.10.13-03.31.55:855][352]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (445)
+[2018.10.13-03.31.55:855][352]LogModuleManager: Shutting down and abandoning module AnimGraph (443)
+[2018.10.13-03.31.55:855][352]LogModuleManager: Shutting down and abandoning module Kismet (440)
+[2018.10.13-03.31.55:883][352]LogModuleManager: Shutting down and abandoning module GraphEditor (438)
+[2018.10.13-03.31.55:883][352]LogModuleManager: Shutting down and abandoning module ClassViewer (436)
+[2018.10.13-03.31.55:887][352]LogModuleManager: Shutting down and abandoning module Toolbox (434)
+[2018.10.13-03.31.55:887][352]LogModuleManager: Shutting down and abandoning module ModuleUI (432)
+[2018.10.13-03.31.55:888][352]LogModuleManager: Shutting down and abandoning module MovieSceneTools (430)
+[2018.10.13-03.31.55:888][352]LogModuleManager: Shutting down and abandoning module OutputLog (428)
+[2018.10.13-03.31.55:888][352]LogModuleManager: Shutting down and abandoning module GammaUI (426)
+[2018.10.13-03.31.55:888][352]LogModuleManager: Shutting down and abandoning module Documentation (424)
+[2018.10.13-03.31.55:888][352]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (422)
+[2018.10.13-03.31.55:888][352]LogModuleManager: Shutting down and abandoning module MovieScene (420)
+[2018.10.13-03.31.55:888][352]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (418)
+[2018.10.13-03.31.55:888][352]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.10.13-03.31.55:889][352]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.10.13-03.31.55:889][352]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.10.13-03.31.55:889][352]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.10.13-03.31.55:890][352]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.10.13-03.31.55:890][352]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.10.13-03.31.55:891][352]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.10.13-03.31.55:891][352]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.10.13-03.31.55:891][352]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.10.13-03.31.55:900][352]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.10.13-03.31.55:900][352]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.10.13-03.31.55:900][352]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.10.13-03.31.55:904][352]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.10.13-03.31.55:904][352]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.10.13-03.31.55:904][352]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.10.13-03.31.55:904][352]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.10.13-03.31.55:904][352]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.10.13-03.31.55:904][352]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.10.13-03.31.55:904][352]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.10.13-03.31.55:904][352]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.10.13-03.31.55:905][352]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.10.13-03.31.55:905][352]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.10.13-03.31.55:905][352]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.10.13-03.31.55:905][352]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.10.13-03.31.55:905][352]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.10.13-03.31.55:905][352]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.10.13-03.31.55:905][352]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.10.13-03.31.55:914][352]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.10.13-03.31.55:915][352]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.10.13-03.31.55:915][352]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.10.13-03.31.55:915][352]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.10.13-03.31.55:915][352]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.10.13-03.31.55:915][352]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.10.13-03.31.55:915][352]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.10.13-03.31.55:915][352]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.10.13-03.31.55:915][352]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.10.13-03.31.55:915][352]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.10.13-03.31.55:916][352]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.10.13-03.31.55:916][352]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.10.13-03.31.55:919][352]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.10.13-03.31.55:919][352]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.10.13-03.31.55:921][352]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.10.13-03.31.55:921][352]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.10.13-03.31.55:921][352]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.10.13-03.31.55:921][352]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.10.13-03.31.55:921][352]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.10.13-03.31.55:921][352]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.10.13-03.31.55:921][352]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.10.13-03.31.55:921][352]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.10.13-03.31.55:921][352]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.10.13-03.31.55:922][352]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.10.13-03.31.55:923][352]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.10.13-03.31.55:923][352]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.10.13-03.31.55:923][352]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.10.13-03.31.55:923][352]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.10.13-03.31.55:923][352]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.10.13-03.31.55:923][352]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.10.13-03.31.55:923][352]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.10.13-03.31.55:924][352]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.10.13-03.31.55:924][352]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.10.13-03.31.55:924][352]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.10.13-03.31.55:924][352]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.10.13-03.31.55:924][352]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.10.13-03.31.55:924][352]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.10.13-03.31.55:924][352]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.10.13-03.31.55:924][352]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.10.13-03.31.55:924][352]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.10.13-03.31.55:924][352]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.10.13-03.31.56:025][352]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.10.13-03.31.56:127][352]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.10.13-03.31.56:127][352]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.10.13-03.31.56:127][352]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.10.13-03.31.56:127][352]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.10.13-03.31.56:127][352]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.10.13-03.31.56:128][352]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.10.13-03.31.56:128][352]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.10.13-03.31.56:134][352]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.10.13-03.31.56:137][352]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.10.13-03.31.56:138][352]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.10.13-03.31.56:139][352]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.10.13-03.31.56:142][352]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.10.13-03.31.56:171][352]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.10.13-03.31.56:171][352]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.10.13-03.31.56:171][352]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.10.13-03.31.56:172][352]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.10.13-03.31.56:172][352]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.10.13-03.31.56:172][352]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.10.13-03.31.56:176][352]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.10.13-03.31.56:183][352]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.10.13-03.31.56:184][352]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.10.13-03.31.56:184][352]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.10.13-03.31.56:184][352]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.10.13-03.31.56:184][352]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.10.13-03.31.56:184][352]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.10.13-03.31.56:184][352]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.10.13-03.31.56:184][352]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.10.13-03.31.56:186][352]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.10.13-03.31.56:186][352]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.10.13-03.31.56:187][352]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.10.13-03.31.56:188][352]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.10.13-03.31.56:188][352]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.10.13-03.31.56:188][352]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.10.13-03.31.56:189][352]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.10.13-03.31.56:189][352]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.10.13-03.31.56:189][352]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.10.13-03.31.56:189][352]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.10.13-03.31.56:189][352]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.10.13-03.31.56:190][352]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.10.13-03.31.56:198][352]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.10.13-03.31.56:199][352]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.10.13-03.31.56:199][352]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.10.13-03.31.56:199][352]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.10.13-03.31.56:199][352]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.10.13-03.31.56:199][352]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.10.13-03.31.56:199][352]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.10.13-03.31.56:203][352]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.10.13-03.31.56:230][352]LogDerivedDataCache: Shutdown
+[2018.10.13-03.31.56:231][352]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.10.13-03.31.56:231][352]LogXGEController: Cleaning working directory: C:/Users/krakp_000/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.13-03.31.56:232][352]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.10.13-03.31.56:233][352]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.10.13-03.31.56:233][352]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.10.13-03.31.56:233][352]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.10.13-03.31.56:235][352]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.10.13-03.31.56:235][352]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.10.13-03.31.56:236][352]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.10.13-03.31.56:236][352]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.10.13-03.31.56:236][352]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.10.13-03.31.56:236][352]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.10.13-03.31.56:236][352]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.10.13-03.31.56:236][352]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.10.13-03.31.56:236][352]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.10.13-03.31.56:236][352]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.10.13-03.31.56:237][352]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.10.13-03.31.56:237][352]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.10.13-03.31.56:237][352]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.10.13-03.31.56:237][352]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.10.13-03.31.56:237][352]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.10.13-03.31.56:238][352]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.10.13-03.31.56:238][352]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.10.13-03.31.56:238][352]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.10.13-03.31.56:272][352]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.10.13-03.31.56:272][352]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.10.13-03.31.56:293][352]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.10.13-03.31.56:293][352]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.10.13-03.31.56:459][352]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.10.13-03.31.56:459][352]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.10.13-03.31.56:459][352]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.10.13-03.31.56:459][352]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.10.13-03.31.56:459][352]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.10.13-03.31.56:460][352]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.10.13-03.31.56:460][352]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.10.13-03.31.56:460][352]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.10.13-03.31.56:460][352]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.10.13-03.31.56:461][352]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.10.13-03.31.56:461][352]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.10.13-03.31.56:461][352]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.10.13-03.31.56:461][352]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.10.13-03.31.56:461][352]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.10.13-03.31.56:461][352]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.10.13-03.31.56:461][352]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.10.13-03.31.56:461][352]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.10.13-03.31.56:461][352]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.10.13-03.31.56:463][352]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.10.13-03.31.56:463][352]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.10.13-03.31.56:511][352]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.10.13-03.31.56:526][352]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.10.13-03.31.56:532][352]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.10.13-03.31.56:535][352]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.10.13-03.31.56:535][352]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.10.13-03.31.56:535][352]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.10.13-03.31.56:535][352]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.10.13-03.31.56:535][352]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.10.13-03.31.56:536][352]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.10.13-03.31.56:536][352]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.10.13-03.31.56:536][352]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.10.13-03.31.56:537][352]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.13-03.31.56:537][352]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.10.13-03.31.56:538][352]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.13-03.31.56:538][352]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.13-03.31.56:538][352]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.13-03.31.56:538][352]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.13-03.31.56:538][352]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.13-03.31.56:538][352]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.13-03.31.56:538][352]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.13-03.31.56:579][352]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.13-03.31.56:579][352]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.13-03.31.56:579][352]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.13-03.31.56:579][352]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.13-03.31.56:580][352]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.13-03.31.56:580][352]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.13-03.31.56:580][352]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.13-03.31.56:580][352]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.13-03.31.56:580][352]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.13-03.31.56:580][352]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.13-03.31.56:580][352]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.13-03.31.56:593][352]LogExit: Exiting.
+[2018.10.13-03.31.56:637][352]Log file closed, 10/12/18 23:31:56
