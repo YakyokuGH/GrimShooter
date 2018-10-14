@@ -5192,3 +5192,1056 @@ LogInit: Object subsystem initialized
 [2018.10.14-03.32.11:755][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.10.14-03.32.12:523][740]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap61DC5270434B8B676CEEA281A8CEB859.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
 [2018.10.14-03.32.13:946][740]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap_BuiltDataE7EFC8DD4199FFF5F7129AA4D84A77CE.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2018.10.14-04.49.40:082][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-04.50.25:887][781]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-04.50.36:017][342]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-04.50.36:067][342]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-04.50.36:067][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-04.50.36:068][342]PIE: New page: PIE session: TwinStickExampleMap (13 oct. 2018 20:50:36)
+[2018.10.14-04.50.36:071][342]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.14-04.50.36:103][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032132s)
+[2018.10.14-04.50.36:108][342]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.14-04.50.36:110][342]LogPlayLevel: PIE: World Init took: (0.005729s)
+[2018.10.14-04.50.36:110][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.039275s)
+[2018.10.14-04.50.36:190][342]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-04.50.36:234][342]LogInit: FAudioDevice initialized.
+[2018.10.14-04.50.36:278][342]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.10.14-04.50.36:283][342]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.14-00.50.36
+[2018.10.14-04.50.36:284][342]LogWorld: Bringing up level for play took: 0.004844
+[2018.10.14-04.50.36:303][342]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0,282
+[2018.10.14-04.50.36:304][342]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-04.50.40:430][576]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-04.50.40:430][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-04.50.40:480][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-04.50.40:480][576]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-04.50.40:526][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-04.50.40:599][577]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2018.10.14-04.50.44:703][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-04.51.04:894][824]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.14-04.51.04:900][824]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-04.51.07:679][824]LogSlate: Window 'Save Content' being destroyed
+[2018.10.14-04.51.07:964][824]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Flipbook44E047C648B9D7F13B53A998C0D5ED5C.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook.uasset'
+[2018.10.14-04.51.08:143][824]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Sprit6A90999E4F6F3C8F4E31DBB7D7DF7E7F.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_0.uasset'
+[2018.10.14-04.51.11:304][977]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-04.51.11:333][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-04.51.11:333][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-04.51.11:333][977]PIE: New page: PIE session: TwinStickExampleMap (13 oct. 2018 20:51:11)
+[2018.10.14-04.51.11:334][977]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.14-04.51.11:348][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013753s)
+[2018.10.14-04.51.11:349][977]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.14-04.51.11:350][977]LogPlayLevel: PIE: World Init took: (0.001606s)
+[2018.10.14-04.51.11:350][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.015661s)
+[2018.10.14-04.51.11:415][977]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-04.51.11:449][977]LogInit: FAudioDevice initialized.
+[2018.10.14-04.51.11:488][977]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.10.14-04.51.11:493][977]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.14-00.51.11
+[2018.10.14-04.51.11:493][977]LogWorld: Bringing up level for play took: 0.003948
+[2018.10.14-04.51.11:509][977]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0,513
+[2018.10.14-04.51.11:509][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-04.51.23:561][643]Cmd: SELECT NONE
+[2018.10.14-04.51.26:045][755]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-04.51.26:045][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-04.51.26:098][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-04.51.26:098][755]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-04.51.26:147][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-04.51.26:201][756]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2018.10.14-04.51.27:003][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-04.51.33:709][870]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.14-04.51.33:715][870]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-04.51.35:739][870]LogSlate: Window 'Save Content' being destroyed
+[2018.10.14-04.51.35:994][870]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_FlipbookFA1FAB3E4C18720B727217B80C4BBF1C.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook.uasset'
+[2018.10.14-04.51.36:172][870]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_SpritB9831B964212CFF48ADF7CBB923D2677.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_1.uasset'
+[2018.10.14-04.51.45:080][986]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.14-04.51.45:086][986]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-04.51.48:652][986]LogSlate: Window 'Save Content' being destroyed
+[2018.10.14-04.51.48:909][986]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Flipbook65105A99490EBB89D63B74940DC1C6CF.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook.uasset'
+[2018.10.14-04.51.49:093][986]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_SpritC4CFCC0F4794D68CDFFE61A15D4E91F2.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_2.uasset'
+[2018.10.14-04.51.57:547][115]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.14-04.51.57:553][115]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-04.52.01:098][115]LogSlate: Window 'Save Content' being destroyed
+[2018.10.14-04.52.01:357][115]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_FlipbookC53D35784032F53D365765944A4CEE33.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook.uasset'
+[2018.10.14-04.52.01:593][115]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_SpritD22A895743E18721E759E1A62D8035FF.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_3.uasset'
+[2018.10.14-04.52.09:645][234]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.14-04.52.09:651][234]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-04.52.11:930][234]LogSlate: Window 'Save Content' being destroyed
+[2018.10.14-04.52.12:189][234]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Flipbook965F4E55498EB0BDE974539D5368F7E5.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook.uasset'
+[2018.10.14-04.52.12:377][234]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Sprit4981A00F4E76FDE1409F2F8EF0C8199E.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_4.uasset'
+[2018.10.14-04.52.24:232][358]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.14-04.52.24:238][358]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-04.52.25:890][358]LogSlate: Window 'Save Content' being destroyed
+[2018.10.14-04.52.26:138][358]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Flipbook3F2B2E584550611F7D841FB37017566E.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook.uasset'
+[2018.10.14-04.52.26:336][358]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Sprit73F30B0943723251713BAA948DB863DA.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_5.uasset'
+[2018.10.14-04.57.38:457][ 31]LogFactory: FactoryCreateFile: PaperSpriteSheet with PaperSpriteSheetReimportFactory (0 1 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_Sprite_Sheet.paper2dsprites)
+[2018.10.14-04.57.38:457][ 31]LogPaperSpriteSheetImporter: Warning: Unexpected 'app' named 'https://www.codeandweb.com/texturepacker' while parsing sprite descriptor file 'Bullet_Charge_Sprite_Sheet'.  Parsing will continue but the format may not be fully supported
+[2018.10.14-04.57.38:555][ 31]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_Sprite_Sheet.png]
+[2018.10.14-04.57.38:556][ 31]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_Sprite_Sheet.png)
+[2018.10.14-04.57.38:579][ 31]LogTexture: Display: Building textures: Bullet_Charge_Sprite_Sheet (BGRA8, 336X48)
+[2018.10.14-04.57.38:663][ 31]LogEditorFactories: -- imported successfully
+[2018.10.14-04.57.38:840][ 31]LogPaperSpriteSheetImporter: Imported successfully
+[2018.10.14-04.57.52:310][291]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_7.png]
+[2018.10.14-04.57.52:310][291]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_7.png)
+[2018.10.14-04.57.52:332][291]LogTexture: Display: Building textures: Bullet_Charge_7 (AutoDXT, 48X48)
+[2018.10.14-04.57.52:357][291]LogEditorFactories: -- imported successfully
+[2018.10.14-04.57.52:393][291]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_1.png]
+[2018.10.14-04.57.52:394][291]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_1.png)
+[2018.10.14-04.57.52:415][291]LogTexture: Display: Building textures: Bullet_Charge_1 (AutoDXT, 48X48)
+[2018.10.14-04.57.52:440][291]LogEditorFactories: -- imported successfully
+[2018.10.14-04.57.52:476][291]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_2.png]
+[2018.10.14-04.57.52:477][291]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_2.png)
+[2018.10.14-04.57.52:498][291]LogTexture: Display: Building textures: Bullet_Charge_2 (AutoDXT, 48X48)
+[2018.10.14-04.57.52:524][291]LogEditorFactories: -- imported successfully
+[2018.10.14-04.57.52:560][291]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_3.png]
+[2018.10.14-04.57.52:561][291]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_3.png)
+[2018.10.14-04.57.52:628][291]LogTexture: Display: Building textures: Bullet_Charge_3 (AutoDXT, 48X48)
+[2018.10.14-04.57.52:652][291]LogEditorFactories: -- imported successfully
+[2018.10.14-04.57.52:688][291]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_5.png]
+[2018.10.14-04.57.52:688][291]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_5.png)
+[2018.10.14-04.57.52:713][291]LogTexture: Display: Building textures: Bullet_Charge_5 (AutoDXT, 48X48)
+[2018.10.14-04.57.52:747][291]LogEditorFactories: -- imported successfully
+[2018.10.14-04.57.52:788][291]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_6.png]
+[2018.10.14-04.57.52:788][291]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_6.png)
+[2018.10.14-04.57.52:805][291]LogTexture: Display: Building textures: Bullet_Charge_6 (AutoDXT, 48X48)
+[2018.10.14-04.57.52:835][291]LogEditorFactories: -- imported successfully
+[2018.10.14-04.57.56:494][317]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_4.png]
+[2018.10.14-04.57.56:495][317]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_4.png)
+[2018.10.14-04.57.56:593][317]LogTexture: Display: Building textures: Bullet_Charge_4 (AutoDXT, 48X48)
+[2018.10.14-04.57.56:623][317]LogEditorFactories: -- imported successfully
+[2018.10.14-04.58.01:463][349]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_Sprite_Sheet.png]
+[2018.10.14-04.58.01:463][349]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_Sprite_Sheet.png)
+[2018.10.14-04.58.01:538][349]LogTexture: Display: Building textures: Bullet_Charge_Sprite_Sheet (BGRA8, 336X48)
+[2018.10.14-04.58.01:571][349]LogEditorFactories: -- imported successfully
+[2018.10.14-04.58.14:262][526]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-04.58.33:178][218]LogSlate: Window 'Extract sprites' being destroyed
+[2018.10.14-04.58.35:517][284]LogSlate: Window 'Extract sprites' being destroyed
+[2018.10.14-04.58.36:091][300]LogSlate: Window 'Extract sprites' being destroyed
+[2018.10.14-04.58.36:562][315]LogSlate: Window 'Extract sprites' being destroyed
+[2018.10.14-04.58.37:066][333]LogSlate: Window 'Extract sprites' being destroyed
+[2018.10.14-04.58.37:556][353]LogSlate: Window 'Extract sprites' being destroyed
+[2018.10.14-04.58.38:098][377]LogSlate: Window 'Extract sprites' being destroyed
+[2018.10.14-04.58.54:702][ 70]LogEditorFactories: Performing atomic reimport of [C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_Sprite_Sheet.png]
+[2018.10.14-04.58.54:704][ 70]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/krakp_000/OneDrive/Bureau/GrimShooter Temporary Files/Bullet Charge/Bullet_Charge_Sprite_Sheet.png)
+[2018.10.14-04.58.54:731][ 70]LogTexture: Display: Building textures: Bullet_Charge_Sprite_Sheet (BGRA8, 336X48)
+[2018.10.14-04.58.54:775][ 70]LogEditorFactories: -- imported successfully
+[2018.10.14-04.59.27:574][636]LogSlate: Window 'Extract sprites' being destroyed
+[2018.10.14-04.59.59:125][862]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-05.00.03:252][945]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook.Bullet_Charge_Flipbook
+[2018.10.14-05.00.08:953][177]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-05.00.09:062][182]LogSlate: Window 'Bullet_Charge_Flipbook*' being destroyed
+[2018.10.14-05.00.09:075][182]LogSlate: Window 'Bullet_Charge_Flipbook*' being destroyed
+[2018.10.14-05.00.13:228][312]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-05.00.32:716][225]LogSlate: Window 'Extract sprites' being destroyed
+[2018.10.14-05.01.05:477][411]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-05.01.11:775][677]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.087
+[2018.10.14-05.01.11:790][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_1] ([1] browsable assets)...
+[2018.10.14-05.01.11:810][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_1.Bullet_Charge_1]
+[2018.10.14-05.01.11:810][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_1]
+[2018.10.14-05.01.12:047][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_1_Auto2E01960844E6600CAAE9358BF7C1DC0C5.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_1_Auto2.uasset'
+[2018.10.14-05.01.12:069][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_3] ([1] browsable assets)...
+[2018.10.14-05.01.12:092][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_3.Bullet_Charge_3]
+[2018.10.14-05.01.12:092][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_3]
+[2018.10.14-05.01.12:282][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_3_Auto21A2D60BD4DC8D2F285A538B80978AB68.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_3_Auto2.uasset'
+[2018.10.14-05.01.12:307][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_1] ([1] browsable assets)...
+[2018.10.14-05.01.12:309][677]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_1.Bullet_Charge_1]
+[2018.10.14-05.01.12:309][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_1]
+[2018.10.14-05.01.12:330][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_1_Auto2BE2916DA447817948EA42699EEA3BF25.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_1_Auto2.uasset'
+[2018.10.14-05.01.12:355][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_4] ([1] browsable assets)...
+[2018.10.14-05.01.12:370][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_4.Bullet_Charge_4]
+[2018.10.14-05.01.12:371][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_4]
+[2018.10.14-05.01.12:563][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_4_Auto2BD949D6E43E13BE8A06F7DB9C46B48AF.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_4_Auto2.uasset'
+[2018.10.14-05.01.12:585][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_7] ([1] browsable assets)...
+[2018.10.14-05.01.12:588][677]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_7.Bullet_Charge_7]
+[2018.10.14-05.01.12:588][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_7]
+[2018.10.14-05.01.12:609][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_7_Auto22BFCD5BC491753D4D789DCBF6BC752E6.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_7_Auto2.uasset'
+[2018.10.14-05.01.12:632][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_6] ([1] browsable assets)...
+[2018.10.14-05.01.12:652][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_6.Bullet_Charge_6]
+[2018.10.14-05.01.12:653][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_6]
+[2018.10.14-05.01.12:863][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_6_Auto201888070409F8C60B8BA03B2EBA462A3.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_6_Auto2.uasset'
+[2018.10.14-05.01.12:889][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_5] ([1] browsable assets)...
+[2018.10.14-05.01.12:910][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_5.Bullet_Charge_5]
+[2018.10.14-05.01.12:910][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_5]
+[2018.10.14-05.01.13:139][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_5_Auto2B074524E42EFAB63B10A22BFBA350BD2.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_5_Auto2.uasset'
+[2018.10.14-05.01.13:162][677]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TwinStickBP/2D/Bullet_Charge_Sprite_Sheet] ([1] browsable assets)...
+[2018.10.14-05.01.13:162][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Bullet_Charge_Sprite_Sheet]
+[2018.10.14-05.01.13:182][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Auto26EE15F0E4D168A43915588B3B547747E.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Bullet_Charge_Sprite_Sheet_Auto2.uasset'
+[2018.10.14-05.01.13:206][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_4] ([1] browsable assets)...
+[2018.10.14-05.01.13:208][677]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_4.Bullet_Charge_4]
+[2018.10.14-05.01.13:208][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_4]
+[2018.10.14-05.01.13:233][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_4_Auto2D0B7CB8F45DDCF1E1F61ECB8DA599FCC.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_4_Auto2.uasset'
+[2018.10.14-05.01.13:257][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_2] ([1] browsable assets)...
+[2018.10.14-05.01.13:275][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_2.Bullet_Charge_2]
+[2018.10.14-05.01.13:275][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_2]
+[2018.10.14-05.01.13:578][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_2_Auto28820B89246226D6AF992C98B2592322F.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_2_Auto2.uasset'
+[2018.10.14-05.01.13:615][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_2] ([1] browsable assets)...
+[2018.10.14-05.01.13:618][677]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_2.Bullet_Charge_2]
+[2018.10.14-05.01.13:618][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_2]
+[2018.10.14-05.01.13:649][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_2_Auto2990016A448F31E8653DA4D952187D72A.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_2_Auto2.uasset'
+[2018.10.14-05.01.13:679][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_3] ([1] browsable assets)...
+[2018.10.14-05.01.13:681][677]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_3.Bullet_Charge_3]
+[2018.10.14-05.01.13:681][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_3]
+[2018.10.14-05.01.13:704][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_3_Auto206C60F1741AEB9739E96968A3B118E54.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_3_Auto2.uasset'
+[2018.10.14-05.01.13:730][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_5] ([1] browsable assets)...
+[2018.10.14-05.01.13:733][677]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_5.Bullet_Charge_5]
+[2018.10.14-05.01.13:733][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_5]
+[2018.10.14-05.01.13:770][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_5_Auto22438AE014041D566E8D9FD9579091CA3.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_5_Auto2.uasset'
+[2018.10.14-05.01.13:796][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_6] ([1] browsable assets)...
+[2018.10.14-05.01.13:798][677]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_6.Bullet_Charge_6]
+[2018.10.14-05.01.13:799][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_6]
+[2018.10.14-05.01.13:825][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_6_Auto295DBA8BC463166753FB3C6A139B4DBD9.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_6_Auto2.uasset'
+[2018.10.14-05.01.13:865][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_7] ([1] browsable assets)...
+[2018.10.14-05.01.13:889][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_7.Bullet_Charge_Sprite_Sheet_Sprite_7]
+[2018.10.14-05.01.13:889][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_7]
+[2018.10.14-05.01.13:920][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_SpritE9AE7D8D4BCD8380DFB2BEBF968F0AE9.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_7_Auto2.uasset'
+[2018.10.14-05.01.13:945][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet] ([1] browsable assets)...
+[2018.10.14-05.01.13:986][677]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet.Bullet_Charge_Sprite_Sheet]
+[2018.10.14-05.01.13:986][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet]
+[2018.10.14-05.01.14:236][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Auto2A59FAF8A427877AFD6A91C83374E73F7.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Auto2.uasset'
+[2018.10.14-05.01.14:259][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Bullet_Charge_7_png] ([1] browsable assets)...
+[2018.10.14-05.01.14:279][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Frames/Bullet_Charge_7_png.Bullet_Charge_7_png]
+[2018.10.14-05.01.14:279][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Bullet_Charge_7_png]
+[2018.10.14-05.01.14:310][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_7_png_Auto28197F11A449869D84D2FADA065938917.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Bullet_Charge_7_png_Auto2.uasset'
+[2018.10.14-05.01.14:335][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_8] ([1] browsable assets)...
+[2018.10.14-05.01.14:351][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_8.Bullet_Charge_Sprite_Sheet_Sprite_8]
+[2018.10.14-05.01.14:351][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_8]
+[2018.10.14-05.01.14:378][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_SpritC1BB1D404A272F7D198C3DA9B344053F.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_8_Auto2.uasset'
+[2018.10.14-05.01.14:401][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_9] ([1] browsable assets)...
+[2018.10.14-05.01.14:420][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_9.Bullet_Charge_Sprite_Sheet_Sprite_9]
+[2018.10.14-05.01.14:420][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_9]
+[2018.10.14-05.01.14:454][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Sprit8CB2B93340DCA0738B27E0A48F870F97.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_9_Auto2.uasset'
+[2018.10.14-05.01.14:476][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_10] ([1] browsable assets)...
+[2018.10.14-05.01.14:493][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_10.Bullet_Charge_Sprite_Sheet_Sprite_10]
+[2018.10.14-05.01.14:493][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_10]
+[2018.10.14-05.01.14:524][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Sprit76C8C964485461FE54A9F1AE7EE6F863.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_10_Auto2.uasset'
+[2018.10.14-05.01.14:554][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_11] ([1] browsable assets)...
+[2018.10.14-05.01.14:576][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_11.Bullet_Charge_Sprite_Sheet_Sprite_11]
+[2018.10.14-05.01.14:576][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_11]
+[2018.10.14-05.01.14:611][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_SpritB0872B774860EB45958DEDB3F0A60D82.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_11_Auto2.uasset'
+[2018.10.14-05.01.14:639][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_12] ([1] browsable assets)...
+[2018.10.14-05.01.14:658][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_12.Bullet_Charge_Sprite_Sheet_Sprite_12]
+[2018.10.14-05.01.14:658][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_12]
+[2018.10.14-05.01.14:688][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Sprit6D20E7D4408FB778924BE19A59CCFD51.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_12_Auto2.uasset'
+[2018.10.14-05.01.14:713][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook] ([1] browsable assets)...
+[2018.10.14-05.01.14:732][677]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook.Bullet_Charge_Flipbook]
+[2018.10.14-05.01.14:732][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook]
+[2018.10.14-05.01.14:761][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Flipbook_Auto20F4A2BF841FC294F62BC3DA4CD04764D.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Flipbook_Auto2.uasset'
+[2018.10.14-05.01.14:786][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_6] ([1] browsable assets)...
+[2018.10.14-05.01.14:812][677]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_6.Bullet_Charge_Sprite_Sheet_Sprite_6]
+[2018.10.14-05.01.14:812][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_6]
+[2018.10.14-05.01.14:867][677]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_SpritDE3C33A34E9F6C2AF891298C70AEB700.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Sprite_6_Auto2.uasset'
+[2018.10.14-05.01.14:898][677]LogFileHelpers: Auto-saving content packages took 3.120
+[2018.10.14-05.01.32:137][564]LogSlate: Window 'Replace References' being destroyed
+[2018.10.14-05.01.56:774][706]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-05.02.04:569][930]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-05.02.14:814][449]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_7_png998ED399499F505EE86A2DBA6301FB2C.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_7_png.uasset'
+[2018.10.14-05.02.45:586][882]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-05.03.45:932][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_WestE7AB61D8450F63374BF2E69B148F6393.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Main_Character/Main_West.uasset'
+[2018.10.14-05.03.45:992][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_South5653CECD4BCAA48F1EF3D49B5CADAD2C.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Main_Character/Main_South.uasset'
+[2018.10.14-05.03.46:063][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_North7A793E7B4FBE0A2A9FD8319A774BC0BF.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Main_Character/Main_North.uasset'
+[2018.10.14-05.03.46:139][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_EastD2A516D94C7064CC8E88CF8E275566CD.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Main_Character/Main_East.uasset'
+[2018.10.14-05.03.46:198][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_Bullet49E2F9284EAFF58F7150B2A73E05E5E4.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Main_Character/Main_Bullet.uasset'
+[2018.10.14-05.03.47:915][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/2D/Main_West" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Main_West.uasset" SILENT=true
+[2018.10.14-05.03.48:193][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_West29AAB56A4BB8C1D713278F8ADB8838F1.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Main_West.uasset'
+[2018.10.14-05.03.48:428][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_WestCC1F815641C4B556FCDA059845D038B0.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Character/Main_West.uasset'
+[2018.10.14-05.03.48:456][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/2D/Main_South" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Main_South.uasset" SILENT=true
+[2018.10.14-05.03.48:625][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_SouthFF2B2D104DC77409884C409B31F2D567.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Main_South.uasset'
+[2018.10.14-05.03.48:840][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_South70E629914F9B9A1890690D81D0009D7C.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Character/Main_South.uasset'
+[2018.10.14-05.03.48:875][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/2D/Main_North" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Main_North.uasset" SILENT=true
+[2018.10.14-05.03.49:043][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_North82DAE97B4D7A4F693416E1AA6890424B.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Main_North.uasset'
+[2018.10.14-05.03.49:275][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_North6AFDE4BB442804E4C5846DA6A5F42C0D.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Character/Main_North.uasset'
+[2018.10.14-05.03.49:309][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/2D/Main_East" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Main_East.uasset" SILENT=true
+[2018.10.14-05.03.49:578][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_East58CAC3124EF9639E30061C829E35D0CF.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Main_East.uasset'
+[2018.10.14-05.03.49:896][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_EastC81675F04DDF9619586FD38D789B2929.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Character/Main_East.uasset'
+[2018.10.14-05.03.49:927][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/2D/Main_Bullet" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Main_Bullet.uasset" SILENT=true
+[2018.10.14-05.03.50:131][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_BulletB6DB3EF64D833423DCA976AAE4F5BCF2.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Main_Bullet.uasset'
+[2018.10.14-05.03.50:424][ 45]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Main_BulletAFA7AB234C7BE8AB305FEDBA891BE8B3.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Main_Character/Main_Bullet.uasset'
+[2018.10.14-05.04.29:797][110]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_7_Mat, compiling. 
+[2018.10.14-05.04.29:928][110]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.14-05.04.29:928][110]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.14-05.04.29:928][110]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.14-05.04.29:928][110]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_6_Mat, compiling. 
+[2018.10.14-05.04.30:025][110]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_5_Mat, compiling. 
+[2018.10.14-05.04.30:173][110]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_4_Mat, compiling. 
+[2018.10.14-05.04.30:302][110]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_3_Mat, compiling. 
+[2018.10.14-05.04.30:413][110]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_2_Mat, compiling. 
+[2018.10.14-05.04.30:524][110]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_1_Mat, compiling. 
+[2018.10.14-05.04.41:646][292]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-05.04.47:494][486]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.04.49:917][568]LogAssetEditorManager: Opening Asset editor for Material /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Material.Bullet_Charge_Material
+[2018.10.14-05.04.49:956][568]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Material, compiling. 
+[2018.10.14-05.04.50:414][568]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Material, compiling. 
+[2018.10.14-05.04.50:475][568]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Material, compiling. 
+[2018.10.14-05.04.50:562][568]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.10.14-05.05.11:300][568]LogShaderCompilers: Display: Shaders left to compile 168
+[2018.10.14-05.05.11:300][568]LogShaderCompilers: Display: Shaders left to compile 167
+[2018.10.14-05.05.11:300][568]LogShaderCompilers: Display: Shaders left to compile 166
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 165
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 164
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 163
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 162
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 161
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 160
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 159
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 158
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 157
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 156
+[2018.10.14-05.05.11:301][568]LogShaderCompilers: Display: Shaders left to compile 155
+[2018.10.14-05.05.11:302][568]LogShaderCompilers: Display: Shaders left to compile 154
+[2018.10.14-05.05.11:302][568]MaterialEditorStats: Base pass shader without light map: 55 instructions
+[2018.10.14-05.05.11:302][568]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2018.10.14-05.05.11:302][568]MaterialEditorStats: Texture samplers: 3/16
+[2018.10.14-05.05.11:302][568]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.10.14-05.05.11:302][568]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.14-05.05.16:830][733]LogAssetEditorManager: Opening Asset editor for Material /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Mat.Bullet_Charge_Sprite_Sheet_Mat
+[2018.10.14-05.05.16:905][733]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.05.23:135][733]LogShaderCompilers: Display: Shaders left to compile 144
+[2018.10.14-05.05.23:135][733]LogShaderCompilers: Display: Shaders left to compile 134
+[2018.10.14-05.05.23:136][733]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.05.23:206][733]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.05.23:305][733]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.14-05.05.40:882][241]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bullet_Charge_Sprite_Sheet_Mat:MaterialGraph_0.MaterialGraphNode_6 or MaterialGraphNode /Engine/Transient.Bullet_Charge_Material:MaterialGraph_0.MaterialGraphNode_6
+[2018.10.14-05.05.40:883][241]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_6.MaterialExpressionMultiply_0"',InputName="Animation  Phase (0-1)"))'
+[2018.10.14-05.05.40:883][241]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bullet_Charge_Material:MaterialGraph_0.MaterialGraphNode_2 or MaterialGraphNode /Engine/Transient.Bullet_Charge_Sprite_Sheet_Mat:MaterialGraph_0.MaterialGraphNode_2
+[2018.10.14-05.05.40:884][241]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_2.MaterialExpressionConstant_0"',InputName="Number of Rows"))'
+[2018.10.14-05.05.40:884][241]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bullet_Charge_Sprite_Sheet_Mat:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.Bullet_Charge_Material:MaterialGraph_0.MaterialGraphNode_3
+[2018.10.14-05.05.40:884][241]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_3.MaterialExpressionConstant_1"',InputName="Number of Columns"))'
+[2018.10.14-05.05.40:890][241]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bullet_Charge_Material:MaterialGraph_0.MaterialGraphNode_4 or MaterialGraphNode /Engine/Transient.Bullet_Charge_Sprite_Sheet_Mat:MaterialGraph_0.MaterialGraphNode_4
+[2018.10.14-05.05.40:890][241]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTime'"MaterialGraphNode_4.MaterialExpressionTime_0"')'
+[2018.10.14-05.05.40:891][241]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bullet_Charge_Sprite_Sheet_Mat:MaterialGraph_0.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.Bullet_Charge_Material:MaterialGraph_0.MaterialGraphNode_5
+[2018.10.14-05.05.40:892][241]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionFrac'"MaterialGraphNode_5.MaterialExpressionFrac_0"')'
+[2018.10.14-05.05.40:892][241]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Bullet_Charge_Sprite_Sheet_Mat:MaterialGraph_0.MaterialGraphNode_7 or MaterialGraphNode /Engine/Transient.Bullet_Charge_Material:MaterialGraph_0.MaterialGraphNode_7
+[2018.10.14-05.05.40:893][241]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_7.MaterialExpressionConstant_2"')'
+[2018.10.14-05.05.41:005][241]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.05.50:104][488]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.05.50:169][488]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.14-05.06.02:767][836]LogShaderCompilers: Display: Shaders left to compile 147
+[2018.10.14-05.06.04:393][884]LogShaderCompilers: Display: Shaders left to compile 146
+[2018.10.14-05.06.05:969][890]LogShaderCompilers: Display: Shaders left to compile 145
+[2018.10.14-05.06.09:075][975]LogShaderCompilers: Display: Shaders left to compile 144
+[2018.10.14-05.06.09:205][978]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.09:272][978]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.14-05.06.16:223][169]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.16:299][169]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.14-05.06.25:216][344]LogShaderCompilers: Display: Shaders left to compile 147
+[2018.10.14-05.06.25:217][344]LogShaderCompilers: Display: Shaders left to compile 146
+[2018.10.14-05.06.25:217][344]LogShaderCompilers: Display: Shaders left to compile 145
+[2018.10.14-05.06.25:217][344]LogShaderCompilers: Display: Shaders left to compile 144
+[2018.10.14-05.06.25:217][344]LogShaderCompilers: Display: Shaders left to compile 143
+[2018.10.14-05.06.25:831][361]LogShaderCompilers: Display: Shaders left to compile 142
+[2018.10.14-05.06.27:769][414]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.27:884][414]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.14-05.06.38:061][707]LogShaderCompilers: Display: Shaders left to compile 147
+[2018.10.14-05.06.38:193][710]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.39:018][730]LogShaderCompilers: Display: Shaders left to compile 147
+[2018.10.14-05.06.39:573][745]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.39:645][745]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.39:678][745]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.40:549][763]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.42:193][808]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.42:248][808]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.42:335][808]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.49:336][975]LogShaderCompilers: Display: Shaders left to compile 137
+[2018.10.14-05.06.49:336][975]LogShaderCompilers: Display: Shaders left to compile 136
+[2018.10.14-05.06.49:471][976]LogShaderCompilers: Display: Shaders left to compile 135
+[2018.10.14-05.06.51:615][ 35]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.53:296][ 79]LogMaterialEditor: Saving and Compiling material Bullet_Charge_Sprite_Sheet_Mat
+[2018.10.14-05.06.56:110][ 79]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.56:290][ 79]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.56:386][ 79]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.06.56:546][ 79]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 150
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 149
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 148
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 147
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 146
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 145
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 144
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 143
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 142
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 141
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 140
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 139
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 138
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 137
+[2018.10.14-05.07.04:017][ 79]LogShaderCompilers: Display: Shaders left to compile 127
+[2018.10.14-05.07.04:027][ 79]TextureStreamingBuild: Display: Compiling optional shaders took 7.497 seconds.
+[2018.10.14-05.08.19:866][ 79]LogShaderCompilers: Display: Shaders left to compile 117
+[2018.10.14-05.08.19:866][ 79]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.10.14-05.08.19:866][ 79]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.10.14-05.08.19:867][ 79]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.10.14-05.08.19:867][ 79]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.10.14-05.08.19:867][ 79]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.10.14-05.08.19:867][ 79]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.10.14-05.08.19:867][ 79]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.10.14-05.08.19:867][ 79]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.10.14-05.08.19:867][ 79]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.14-05.08.19:867][ 79]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.14-05.08.19:867][ 79]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.14-05.08.20:316][ 79]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_MatE143F9D149D75B34A1F273A80B1A339C.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet_Mat.uasset'
+[2018.10.14-05.08.20:365][ 79]MaterialEditorStats: Base pass shader without light map: 55 instructions
+[2018.10.14-05.08.20:365][ 79]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2018.10.14-05.08.20:365][ 79]MaterialEditorStats: Texture samplers: 3/16
+[2018.10.14-05.08.20:365][ 79]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.10.14-05.08.20:365][ 79]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.14-05.09.05:775][524]LogSlate: Window 'Bullet_Charge_Sprite_Sheet_Mat' being destroyed
+[2018.10.14-05.09.05:847][524]LogSlate: Window 'Bullet_Charge_Sprite_Sheet_Mat' being destroyed
+[2018.10.14-05.09.21:354][663]LogSlate: Window 'Replace References?' being destroyed
+[2018.10.14-05.09.21:359][663]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.14-05.09.23:758][663]LogSlate: Window 'Save Content' being destroyed
+[2018.10.14-05.09.23:821][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD_Blueprints" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset" SILENT=true
+[2018.10.14-05.09.24:069][663]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/HUD_BlueprintsB37870554219C27F1578E8914CA6B223.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset'
+[2018.10.14-05.09.24:260][663]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Material831CF7E647A2A5A8E911409FD5438A29.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Material.uasset'
+[2018.10.14-05.09.37:264][301]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Mat0CCF4CDE43BD6C549C5A02A7BE2E2191.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Mat.uasset'
+[2018.10.14-05.09.37:715][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD_Blueprints" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset" SILENT=true
+[2018.10.14-05.09.37:963][301]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/HUD_BlueprintsA86E06134665838FC95268BF704D147A.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/HUD_Blueprints.uasset'
+[2018.10.14-05.09.38:195][301]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Material9FB29B0A4144AAAEE281C39058440605.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Material.uasset'
+[2018.10.14-05.09.41:993][475]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-05.09.42:042][475]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.09.42:043][475]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.14-05.09.42:074][475]LogPlayLevel: [PlayLevel] Compiling HUD_Blueprints before play...
+[2018.10.14-05.09.42:194][475]LogPlayLevel: PlayLevel: Blueprint regeneration took 151 ms (1 blueprints)
+[2018.10.14-05.09.42:194][475]PIE: New page: PIE session: TwinStickExampleMap (13 oct. 2018 21:09:42)
+[2018.10.14-05.09.42:195][475]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.14-05.09.42:207][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011934s)
+[2018.10.14-05.09.42:209][475]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.14-05.09.42:209][475]LogPlayLevel: PIE: World Init took: (0.002059s)
+[2018.10.14-05.09.42:209][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.014307s)
+[2018.10.14-05.09.42:289][475]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-05.09.42:350][475]LogInit: FAudioDevice initialized.
+[2018.10.14-05.09.42:393][475]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.10.14-05.09.42:396][475]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.14-01.09.42
+[2018.10.14-05.09.42:397][475]LogWorld: Bringing up level for play took: 0.002932
+[2018.10.14-05.09.42:412][475]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0,391
+[2018.10.14-05.09.42:412][475]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.09.48:225][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.09.48:226][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-05.09.48:281][762]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-05.09.48:282][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.09.48:345][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-05.09.48:426][763]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2018.10.14-05.09.54:472][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-05.09.54:686][ 71]LogAssetEditorManager: Opening Asset editor for Material /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Mat.Bullet_Charge_Mat
+[2018.10.14-05.09.54:696][ 71]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.09.54:966][ 71]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.09.55:021][ 71]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.09.55:056][ 71]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.14-05.09.55:057][ 71]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.14-05.09.55:057][ 71]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.14-05.09.55:092][ 71]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.14-05.10.12:130][527]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.14-05.10.16:277][646]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.14-05.10.18:341][684]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.14-05.10.18:341][684]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.14-05.10.23:425][840]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.14-05.10.27:285][964]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.14-05.10.34:517][244]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.14-05.10.40:296][452]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.14-05.10.47:656][732]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.14-05.10.55:699][ 64]Cmd: TRANSACTION UNDO
+[2018.10.14-05.10.55:699][ 64]LogEditorTransaction: Undo Edit Blend Mode
+[2018.10.14-05.10.55:707][ 64]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.11.00:534][ 64]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.14-05.11.00:534][ 64]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.14-05.11.00:534][ 64]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.14-05.11.00:534][ 64]LogStats: FPlatformStackWalk::StackWalkAndDump -  4.760 s
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: 
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2103]
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: 
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: Stack: 
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffad47071e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffad4440c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffad445b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffabe4af198 UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffacf424c25 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffacf4501fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffacf436535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffacf4a2dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffacf4e9b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffacf47c81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffacf43599c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.14-05.11.00:535][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffacf42f5d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffacfd0da23 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffaaba377ce UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffaaba37bee UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffad32e24df UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffad332437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffaaba471a2 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffaaba37679 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffad33260e9 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffad3319846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffae341ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffae3410270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffae341f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffae340c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffb0cde6cc1 USER32.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffb0cde6693 USER32.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffae3420646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ff6dcf254e5 UE4Editor.exe!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ff6dcf35b3c UE4Editor.exe!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ff6dcf35bba UE4Editor.exe!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ff6dcf43dac UE4Editor.exe!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ff6dcf45aaa UE4Editor.exe!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffb0b473034 KERNEL32.DLL!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: [Callstack] 0x00007ffb0d881461 ntdll.dll!UnknownFunction []
+[2018.10.14-05.11.00:536][ 64]LogOutputDevice: Error: 
+[2018.10.14-05.11.00:550][ 64]LogStats:                SubmitErrorReport -  0.007 s
+[2018.10.14-05.11.17:059][ 64]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.14-05.11.17:301][ 64]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.14-05.11.17:301][ 64]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.14-05.11.17:301][ 64]LogStats:                    SendNewReport - 16.751 s
+[2018.10.14-05.11.17:301][ 64]LogStats:             FDebug::EnsureFailed - 21.531 s
+[2018.10.14-05.11.17:338][ 64]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.11.17:366][ 64]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.14-05.11.27:715][475]Cmd: TRANSACTION UNDO
+[2018.10.14-05.11.27:716][475]LogEditorTransaction: Undo Edit Shading Model
+[2018.10.14-05.11.27:731][475]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.11.27:894][475]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.11.28:960][506]Cmd: TRANSACTION UNDO
+[2018.10.14-05.11.28:960][506]LogEditorTransaction: Undo Create Pin Link
+[2018.10.14-05.11.28:973][506]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.11.29:083][506]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.11.30:243][552]Cmd: TRANSACTION UNDO
+[2018.10.14-05.11.30:243][552]LogEditorTransaction: Undo Create Pin Link
+[2018.10.14-05.11.30:293][552]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.11.30:370][552]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.11.34:735][593]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.14-05.11.34:777][593]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.14-05.11.35:177][593]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.14-05.11.36:356][593]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.14-05.11.36:373][593]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.14-05.11.36:778][593]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.14-05.11.42:234][744]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.14-05.11.42:379][748]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.14-05.11.46:515][876]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.14-05.11.50:286][993]LogMaterialEditor: Saving and Compiling material Bullet_Charge_Mat
+[2018.10.14-05.11.52:858][993]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.14-05.11.52:858][993]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.14-05.11.52:858][993]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.14-05.12.01:168][993]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.14-05.12.01:169][993]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.14-05.12.01:170][993]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.14-05.12.01:224][993]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.12.01:314][993]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.14-05.12.01:503][993]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.12.01:568][993]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.12.01:738][993]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.12.15:100][993]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.14-05.12.15:100][993]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.14-05.12.15:100][993]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.14-05.12.15:100][993]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.14-05.12.15:100][993]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.14-05.12.15:101][993]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.14-05.12.15:101][993]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.14-05.12.15:101][993]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.14-05.12.15:101][993]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.14-05.12.15:101][993]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.14-05.12.15:101][993]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.14-05.12.15:101][993]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.14-05.12.15:101][993]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.14-05.12.15:109][993]TextureStreamingBuild: Display: Compiling optional shaders took 13.384 seconds.
+[2018.10.14-05.12.15:361][993]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.14-05.12.23:979][993]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Mat916FA26540BA30FE81AD94856A80EE12.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Mat.uasset'
+[2018.10.14-05.12.24:033][993]MaterialEditorStats: Base pass shader without light map: 55 instructions
+[2018.10.14-05.12.24:033][993]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2018.10.14-05.12.24:033][993]MaterialEditorStats: Texture samplers: 3/16
+[2018.10.14-05.12.24:033][993]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.10.14-05.12.24:033][993]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.14-05.12.24:501][994]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.208
+[2018.10.14-05.12.24:514][994]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TwinStickBP/2D/Bullet_Charge_Sprite_Sheet] ([1] browsable assets)...
+[2018.10.14-05.12.24:514][994]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Bullet_Charge_Sprite_Sheet]
+[2018.10.14-05.12.24:536][994]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet_Auto3F2C9901C4040869400DF938B66AA77DB.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Bullet_Charge_Sprite_Sheet_Auto3.uasset'
+[2018.10.14-05.12.24:557][994]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Bullet_Charge] ([1] browsable assets)...
+[2018.10.14-05.12.24:558][994]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Bullet_Charge]
+[2018.10.14-05.12.24:613][994]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Auto3D5C2CB224A4B8AC3019FD7B9FCD023FB.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/Blueprints/Bullet_Charge_Auto3.uasset'
+[2018.10.14-05.12.24:651][994]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_Flipbook] ([1] browsable assets)...
+[2018.10.14-05.12.24:674][994]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_Flipbook.Bullet_Charge_Flipbook]
+[2018.10.14-05.12.24:674][994]OBJ SavePackage: Finished generating thumbnails for package [/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_Flipbook]
+[2018.10.14-05.12.24:699][994]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Flipbook_Auto300C781144530B0A883DB0B8BE807CE72.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Autosaves/Game/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_Flipbook_Auto3.uasset'
+[2018.10.14-05.12.24:716][994]LogFileHelpers: Auto-saving content packages took 0.209
+[2018.10.14-05.13.17:158][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-05.13.17:226][379]LogSlate: Window 'Bullet_Charge_Mat' being destroyed
+[2018.10.14-05.13.17:237][379]LogSlate: Window 'Bullet_Charge_Mat' being destroyed
+[2018.10.14-05.13.18:337][417]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-05.13.18:372][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.13.18:372][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-05.13.18:372][417]PIE: New page: PIE session: TwinStickExampleMap (13 oct. 2018 21:13:18)
+[2018.10.14-05.13.18:373][417]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.14-05.13.18:381][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008222s)
+[2018.10.14-05.13.18:383][417]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.14-05.13.18:383][417]LogPlayLevel: PIE: World Init took: (0.002271s)
+[2018.10.14-05.13.18:383][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.010744s)
+[2018.10.14-05.13.18:468][417]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-05.13.18:506][417]LogInit: FAudioDevice initialized.
+[2018.10.14-05.13.18:543][417]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.10.14-05.13.18:546][417]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.14-01.13.18
+[2018.10.14-05.13.18:547][417]LogWorld: Bringing up level for play took: 0.003884
+[2018.10.14-05.13.18:561][417]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0,541
+[2018.10.14-05.13.18:561][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.13.25:224][780]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.13.25:226][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-05.13.25:269][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-05.13.25:270][780]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.13.25:327][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-05.13.25:443][781]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2018.10.14-05.13.27:759][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-05.13.33:296][206]Cmd: TRANSACTION UNDO
+[2018.10.14-05.13.33:296][206]LogEditorTransaction: Undo Create Pin Link
+[2018.10.14-05.13.33:307][206]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.13.33:407][206]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.14-05.13.33:407][206]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.14-05.13.33:407][206]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.14-05.13.34:377][243]Cmd: TRANSACTION UNDO
+[2018.10.14-05.13.34:377][243]LogEditorTransaction: Undo Create Pin Link
+[2018.10.14-05.13.34:389][243]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.13.35:227][275]Cmd: TRANSACTION UNDO
+[2018.10.14-05.13.35:227][275]LogEditorTransaction: Undo Move Nodes
+[2018.10.14-05.13.35:834][299]Cmd: TRANSACTION UNDO
+[2018.10.14-05.13.35:834][299]LogEditorTransaction: Undo Move Nodes
+[2018.10.14-05.13.36:396][322]Cmd: TRANSACTION UNDO
+[2018.10.14-05.13.36:396][322]LogEditorTransaction: Undo Material Editor: Paste
+[2018.10.14-05.13.36:412][322]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Sprite_Sheet_Mat, compiling. 
+[2018.10.14-05.13.36:962][338]Cmd: TRANSACTION UNDO
+[2018.10.14-05.13.36:962][338]LogEditorTransaction: Undo Edit Cell Width
+[2018.10.14-05.13.37:462][357]Cmd: TRANSACTION UNDO
+[2018.10.14-05.13.37:462][357]LogEditorTransaction: Undo Edit Sprite Extract Mode
+[2018.10.14-05.13.38:297][387]Cmd: TRANSACTION UNDO
+[2018.10.14-05.13.38:297][387]LogEditorTransaction: Undo Edit Cell Width
+[2018.10.14-05.13.38:996][415]Cmd: TRANSACTION UNDO
+[2018.10.14-05.13.38:996][415]LogEditorTransaction: Undo Edit Sprite Extract Mode
+[2018.10.14-05.13.39:545][436]Cmd: TRANSACTION UNDO
+[2018.10.14-05.13.39:545][436]LogEditorTransaction: Undo Select None
+[2018.10.14-05.13.49:923][882]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.14-05.13.50:025][887]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.14-05.13.53:484][ 33]LogAssetEditorManager: Opening Asset editor for Material /Game/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Mat.Bullet_Charge_Mat
+[2018.10.14-05.13.53:496][ 33]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.13.53:837][ 33]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.13.53:883][ 33]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.13.53:971][ 33]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.14-05.13.58:833][160]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.14-05.13.59:558][180]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.14-05.14.02:965][280]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.14.03:116][280]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.14.04:706][323]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.14.04:811][325]LogMaterialEditor: Saving and Compiling material Bullet_Charge_Mat
+[2018.10.14-05.14.07:454][325]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.14-05.14.07:454][325]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.14-05.14.07:503][325]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.14.07:707][325]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.14.07:791][325]LogMaterial: Display: Missing cached shader map for material Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.14.07:969][325]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Bullet_Charge_Mat, compiling. 
+[2018.10.14-05.14.45:861][325]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.14-05.14.45:861][325]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.10.14-05.14.45:861][325]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.10.14-05.14.45:861][325]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.14-05.14.45:861][325]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.14-05.14.45:861][325]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.14-05.14.45:861][325]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.10.14-05.14.45:861][325]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.10.14-05.14.45:861][325]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.14-05.14.45:862][325]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.14-05.14.45:863][325]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.14-05.14.45:863][325]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.14-05.14.45:863][325]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.14-05.14.45:863][325]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.14-05.14.45:863][325]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.14-05.14.45:872][325]TextureStreamingBuild: Display: Compiling optional shaders took 37.950 seconds.
+[2018.10.14-05.14.59:090][325]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.14-05.14.59:516][325]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Mat81DBC5774D670D215917E78DA07EC6D0.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Mat.uasset'
+[2018.10.14-05.14.59:583][325]MaterialEditorStats: Base pass shader without light map: 55 instructions
+[2018.10.14-05.14.59:583][325]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2018.10.14-05.14.59:583][325]MaterialEditorStats: Texture samplers: 3/16
+[2018.10.14-05.14.59:583][325]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.10.14-05.14.59:583][325]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.14-05.17.51:744][839]LogMaterialEditor: Saving and Compiling material Bullet_Charge_Mat
+[2018.10.14-05.17.52:078][839]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Mat609FD220494884DBDA5A75AEEFCFE658.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Mat.uasset'
+[2018.10.14-05.17.55:646][968]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.14-05.17.55:696][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.17.55:696][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.14-05.17.55:696][968]PIE: New page: PIE session: TwinStickExampleMap (13 oct. 2018 21:17:55)
+[2018.10.14-05.17.55:697][968]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.10.14-05.17.55:710][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013551s)
+[2018.10.14-05.17.55:713][968]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.10.14-05.17.55:713][968]LogPlayLevel: PIE: World Init took: (0.002319s)
+[2018.10.14-05.17.55:713][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.016640s)
+[2018.10.14-05.17.55:808][968]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.14-05.17.55:849][968]LogInit: FAudioDevice initialized.
+[2018.10.14-05.17.55:888][968]LogLoad: Game class is 'TwinStickGameMode_C'
+[2018.10.14-05.17.55:892][968]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.10.14-01.17.55
+[2018.10.14-05.17.55:892][968]LogWorld: Bringing up level for play took: 0.003545
+[2018.10.14-05.17.55:907][968]PIE: Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0,113
+[2018.10.14-05.17.55:908][968]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.17.58:417][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.17.58:418][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-05.17.58:468][ 93]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.14-05.17.58:468][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.10.14-05.17.58:528][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.14-05.17.58:591][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2018.10.14-05.18.05:395][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.14-05.18.06:237][457]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMapF70CE0594F0EAAD7DB0DA5A094AFC463.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2018.10.14-05.18.07:137][457]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/TwinStickExampleMap_BuiltDataDD0F966842C763BE7FC5B487DD60B7EB.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/Maps/TwinStickExampleMap_BuiltData.uasset'
+[2018.10.14-05.18.15:509][790]LogSlate: Window 'Save Content' being destroyed
+[2018.10.14-05.18.15:592][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bullet_Charge" FILE="../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/Bullet_Charge.uasset" SILENT=true
+[2018.10.14-05.18.15:624][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge6D405B67435EEA65E27356B6747F202A.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/Blueprints/Bullet_Charge.uasset'
+[2018.10.14-05.18.15:684][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_Sheet733DADD34CEAE885CD546A9B7C3CDAAA.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Bullet_Charge_Sprite_Sheet.uasset'
+[2018.10.14-05.18.15:925][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_1E9DF67AE48256D6567E153B64803FD56.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_1.uasset'
+[2018.10.14-05.18.16:129][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_212E00EB64650072F4D1D3E8693A38F2A.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_2.uasset'
+[2018.10.14-05.18.16:345][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_34CD26F764D4E76820304F397F848437C.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_3.uasset'
+[2018.10.14-05.18.16:556][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_453EE38194DDEA2951AF693A4E9F868EA.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_4.uasset'
+[2018.10.14-05.18.16:794][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_51A5F714E4671E5FFD87386A80B20B2C4.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_5.uasset'
+[2018.10.14-05.18.17:064][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_6B429B4374BE5B2946EE51FBB3697B615.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_6.uasset'
+[2018.10.14-05.18.17:161][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Flipbook3533F4FB491F490655E9A29399619735.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Frames/Bullet_Charge/Bullet_Charge_Flipbook.uasset'
+[2018.10.14-05.18.17:273][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_1FC8ADFA84C3C80698C5CCDA2923935A6.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_1.uasset'
+[2018.10.14-05.18.17:370][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_2FABA94494E39768B88A1E798D5B060F5.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_2.uasset'
+[2018.10.14-05.18.17:455][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_3D42C8CEB4FC6EA4D41C27A8969FA10A6.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_3.uasset'
+[2018.10.14-05.18.17:534][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_49F2B5969499DCE183CB6A586FD94FFEC.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_4.uasset'
+[2018.10.14-05.18.17:597][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_5F406DAD7401AD3D5A80F4485CF1C5807.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_5.uasset'
+[2018.10.14-05.18.17:661][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_6B333899949E61B861D34F690DF8F8CFA.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_6.uasset'
+[2018.10.14-05.18.17:762][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_762A17E6F4022C7F4A270EBB259DA0FA2.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_7.uasset'
+[2018.10.14-05.18.17:982][790]LogSavePackage: Moving '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Saved/Bullet_Charge_Sprite_SheetC8EEFBEE440F351018093BA019D85FD7.tmp' to '../../../../../../Users/krakp_000/OneDrive/Bureau/Unreal Projects/GrimShooter/Content/TwinStickBP/2D/Textures/Bullet_Charge/Bullet_Charge_Sprite_Sheet.uasset'
+[2018.10.14-05.18.18:253][790]LogSlate: Window 'Bullet_Charge_Mat' being destroyed
+[2018.10.14-05.18.18:458][790]LogSlate: Window 'GrimShooter - Unreal Editor' being destroyed
+[2018.10.14-05.18.18:460][790]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.14-05.18.20:126][791]Cmd: QUIT_EDITOR
+[2018.10.14-05.18.22:324][791]LogExit: Preparing to exit.
+[2018.10.14-05.18.25:758][791]LogExit: Editor shut down
+[2018.10.14-05.18.25:764][791]LogExit: Transaction tracking system shut down
+[2018.10.14-05.18.30:452][791]LogExit: Object subsystem successfully closed.
+[2018.10.14-05.18.30:833][791]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.14-05.18.30:861][791]LogD3D11RHI: Shutdown
+[2018.10.14-05.18.30:861][791]LogD3D11RHI: CleanupD3DDevice
+[2018.10.14-05.18.31:008][791]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.14-05.18.32:778][791]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (618)
+[2018.10.14-05.18.32:778][791]LogModuleManager: Shutting down and abandoning module TextureEditor (616)
+[2018.10.14-05.18.32:795][791]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (614)
+[2018.10.14-05.18.32:795][791]LogModuleManager: Shutting down and abandoning module Voice (612)
+[2018.10.14-05.18.32:800][791]LogModuleManager: Shutting down and abandoning module BlueprintGraph (610)
+[2018.10.14-05.18.32:800][791]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (608)
+[2018.10.14-05.18.32:801][791]LogModuleManager: Shutting down and abandoning module SceneOutliner (606)
+[2018.10.14-05.18.32:801][791]LogModuleManager: Shutting down and abandoning module AddContentDialog (604)
+[2018.10.14-05.18.32:868][791]LogModuleManager: Shutting down and abandoning module WidgetCarousel (603)
+[2018.10.14-05.18.32:868][791]LogModuleManager: Shutting down and abandoning module EditorWidgets (600)
+[2018.10.14-05.18.32:868][791]LogModuleManager: Shutting down and abandoning module CollectionManager (598)
+[2018.10.14-05.18.32:903][791]LogModuleManager: Shutting down and abandoning module StatsViewer (596)
+[2018.10.14-05.18.32:916][791]LogModuleManager: Shutting down and abandoning module FoliageEdit (594)
+[2018.10.14-05.18.32:923][791]LogModuleManager: Shutting down and abandoning module LandscapeEditor (592)
+[2018.10.14-05.18.32:983][791]LogModuleManager: Shutting down and abandoning module MeshPaintMode (590)
+[2018.10.14-05.18.33:009][791]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (588)
+[2018.10.14-05.18.33:009][791]LogModuleManager: Shutting down and abandoning module ActorPickerMode (586)
+[2018.10.14-05.18.33:009][791]LogModuleManager: Shutting down and abandoning module GeometryMode (584)
+[2018.10.14-05.18.33:009][791]LogModuleManager: Shutting down and abandoning module TextureAlignMode (582)
+[2018.10.14-05.18.33:009][791]LogModuleManager: Shutting down and abandoning module BspMode (580)
+[2018.10.14-05.18.33:009][791]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (578)
+[2018.10.14-05.18.33:026][791]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (576)
+[2018.10.14-05.18.33:038][791]LogModuleManager: Shutting down and abandoning module AutomationWorker (574)
+[2018.10.14-05.18.33:038][791]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (572)
+[2018.10.14-05.18.33:038][791]LogModuleManager: Shutting down and abandoning module SequenceRecorder (571)
+[2018.10.14-05.18.33:057][791]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (568)
+[2018.10.14-05.18.33:058][791]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (566)
+[2018.10.14-05.18.33:078][791]LogModuleManager: Shutting down and abandoning module PlacementMode (565)
+[2018.10.14-05.18.33:078][791]LogModuleManager: Shutting down and abandoning module MaterialEditor (564)
+[2018.10.14-05.18.33:079][791]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (560)
+[2018.10.14-05.18.33:079][791]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (558)
+[2018.10.14-05.18.33:079][791]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (556)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (554)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (552)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (550)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (548)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (546)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (544)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (542)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (540)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (538)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (536)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module CharacterAI (534)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module SmartSnapping (532)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module SessionServices (530)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module ViewportSnapping (528)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module ViewportInteraction (526)
+[2018.10.14-05.18.33:096][791]LogModuleManager: Shutting down and abandoning module ClothPainter (524)
+[2018.10.14-05.18.33:156][791]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (523)
+[2018.10.14-05.18.33:184][791]LogModuleManager: Shutting down and abandoning module LogVisualizer (520)
+[2018.10.14-05.18.33:197][791]LogModuleManager: Shutting down and abandoning module IntroTutorials (518)
+[2018.10.14-05.18.33:226][791]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (517)
+[2018.10.14-05.18.33:227][791]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (514)
+[2018.10.14-05.18.33:227][791]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (512)
+[2018.10.14-05.18.33:227][791]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (510)
+[2018.10.14-05.18.33:227][791]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (508)
+[2018.10.14-05.18.33:227][791]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (507)
+[2018.10.14-05.18.34:307][791]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (504)
+[2018.10.14-05.18.34:307][791]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (502)
+[2018.10.14-05.18.34:307][791]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (500)
+[2018.10.14-05.18.34:307][791]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (498)
+[2018.10.14-05.18.34:307][791]LogModuleManager: Shutting down and abandoning module InputBindingEditor (496)
+[2018.10.14-05.18.34:378][791]LogModuleManager: Shutting down and abandoning module MergeActors (494)
+[2018.10.14-05.18.34:403][791]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (492)
+[2018.10.14-05.18.34:421][791]LogModuleManager: Shutting down and abandoning module LocalizationService (491)
+[2018.10.14-05.18.34:439][791]LogModuleManager: Shutting down and abandoning module HardwareTargeting (488)
+[2018.10.14-05.18.34:440][791]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (486)
+[2018.10.14-05.18.34:440][791]LogModuleManager: Shutting down and abandoning module UndoHistory (484)
+[2018.10.14-05.18.34:454][791]LogModuleManager: Shutting down and abandoning module XmlParser (482)
+[2018.10.14-05.18.34:456][791]LogModuleManager: Shutting down and abandoning module Blutility (480)
+[2018.10.14-05.18.34:467][791]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (478)
+[2018.10.14-05.18.34:467][791]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (477)
+[2018.10.14-05.18.34:484][791]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (474)
+[2018.10.14-05.18.34:485][791]LogModuleManager: Shutting down and abandoning module SettingsEditor (472)
+[2018.10.14-05.18.34:501][791]LogModuleManager: Shutting down and abandoning module ProjectLauncher (470)
+[2018.10.14-05.18.34:525][791]LogModuleManager: Shutting down and abandoning module SessionFrontend (468)
+[2018.10.14-05.18.34:539][791]LogModuleManager: Shutting down and abandoning module ProfilerClient (466)
+[2018.10.14-05.18.34:556][791]LogModuleManager: Shutting down and abandoning module DeviceManager (464)
+[2018.10.14-05.18.34:569][791]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (463)
+[2018.10.14-05.18.34:625][791]LogModuleManager: Shutting down and abandoning module AutomationController (460)
+[2018.10.14-05.18.34:649][791]LogModuleManager: Shutting down and abandoning module AutomationWindow (458)
+[2018.10.14-05.18.34:677][791]LogModuleManager: Shutting down and abandoning module Layers (456)
+[2018.10.14-05.18.34:728][791]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (454)
+[2018.10.14-05.18.34:729][791]LogModuleManager: Shutting down and abandoning module DetailCustomizations (452)
+[2018.10.14-05.18.34:745][791]LogModuleManager: Shutting down and abandoning module PackagesDialog (450)
+[2018.10.14-05.18.34:745][791]LogModuleManager: Shutting down and abandoning module Persona (448)
+[2018.10.14-05.18.34:778][791]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (447)
+[2018.10.14-05.18.34:778][791]LogModuleManager: Shutting down and abandoning module AnimGraph (445)
+[2018.10.14-05.18.34:778][791]LogModuleManager: Shutting down and abandoning module Kismet (442)
+[2018.10.14-05.18.35:017][791]LogModuleManager: Shutting down and abandoning module GraphEditor (440)
+[2018.10.14-05.18.35:017][791]LogModuleManager: Shutting down and abandoning module ClassViewer (438)
+[2018.10.14-05.18.35:028][791]LogModuleManager: Shutting down and abandoning module Toolbox (436)
+[2018.10.14-05.18.35:028][791]LogModuleManager: Shutting down and abandoning module ModuleUI (434)
+[2018.10.14-05.18.35:038][791]LogModuleManager: Shutting down and abandoning module MovieSceneTools (432)
+[2018.10.14-05.18.35:068][791]LogModuleManager: Shutting down and abandoning module OutputLog (430)
+[2018.10.14-05.18.35:068][791]LogModuleManager: Shutting down and abandoning module GammaUI (428)
+[2018.10.14-05.18.35:079][791]LogModuleManager: Shutting down and abandoning module Documentation (426)
+[2018.10.14-05.18.35:186][791]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
+[2018.10.14-05.18.35:186][791]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (422)
+[2018.10.14-05.18.35:186][791]LogModuleManager: Shutting down and abandoning module MovieScene (420)
+[2018.10.14-05.18.35:207][791]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (418)
+[2018.10.14-05.18.35:223][791]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.10.14-05.18.35:224][791]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.10.14-05.18.35:224][791]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.10.14-05.18.35:224][791]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.10.14-05.18.35:243][791]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.10.14-05.18.35:251][791]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.10.14-05.18.35:261][791]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.10.14-05.18.35:261][791]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.10.14-05.18.35:261][791]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.10.14-05.18.35:273][791]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.10.14-05.18.35:293][791]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.10.14-05.18.35:293][791]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.10.14-05.18.35:294][791]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.10.14-05.18.35:305][791]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.10.14-05.18.35:306][791]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.10.14-05.18.35:306][791]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.10.14-05.18.35:319][791]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.10.14-05.18.35:319][791]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.10.14-05.18.35:320][791]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.10.14-05.18.35:320][791]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.10.14-05.18.35:320][791]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.10.14-05.18.35:320][791]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.10.14-05.18.35:320][791]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.10.14-05.18.35:363][791]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.10.14-05.18.35:363][791]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.10.14-05.18.35:363][791]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.10.14-05.18.35:363][791]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.10.14-05.18.35:382][791]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.10.14-05.18.35:382][791]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.10.14-05.18.35:383][791]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.10.14-05.18.35:383][791]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.10.14-05.18.35:411][791]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.10.14-05.18.35:411][791]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.10.14-05.18.35:412][791]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.10.14-05.18.35:412][791]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.10.14-05.18.35:412][791]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.10.14-05.18.35:412][791]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.10.14-05.18.35:412][791]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.10.14-05.18.35:416][791]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.10.14-05.18.35:416][791]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.10.14-05.18.35:417][791]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.10.14-05.18.35:448][791]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.10.14-05.18.35:457][791]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.10.14-05.18.35:457][791]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.10.14-05.18.35:469][791]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.10.14-05.18.35:478][791]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.10.14-05.18.35:478][791]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.10.14-05.18.35:478][791]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.10.14-05.18.35:478][791]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.10.14-05.18.35:478][791]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.10.14-05.18.35:496][791]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.10.14-05.18.35:507][791]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.10.14-05.18.35:519][791]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.10.14-05.18.35:527][791]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.10.14-05.18.35:527][791]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.10.14-05.18.35:527][791]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.10.14-05.18.35:527][791]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.10.14-05.18.35:527][791]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.10.14-05.18.35:542][791]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.10.14-05.18.35:560][791]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.10.14-05.18.35:560][791]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.10.14-05.18.35:560][791]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.10.14-05.18.35:560][791]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.10.14-05.18.35:573][791]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.10.14-05.18.35:573][791]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.10.14-05.18.35:573][791]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.10.14-05.18.35:592][791]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.10.14-05.18.35:592][791]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.10.14-05.18.35:693][791]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.10.14-05.18.35:819][791]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.10.14-05.18.35:819][791]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.10.14-05.18.35:840][791]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.10.14-05.18.35:840][791]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.10.14-05.18.35:840][791]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.10.14-05.18.35:841][791]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.10.14-05.18.35:886][791]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.10.14-05.18.35:931][791]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.10.14-05.18.35:940][791]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.10.14-05.18.35:942][791]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.10.14-05.18.35:950][791]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.10.14-05.18.35:973][791]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.10.14-05.18.35:980][791]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.10.14-05.18.35:993][791]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.10.14-05.18.35:993][791]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.10.14-05.18.35:993][791]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.10.14-05.18.35:993][791]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.10.14-05.18.36:011][791]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.10.14-05.18.36:028][791]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.10.14-05.18.36:035][791]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.10.14-05.18.36:035][791]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.10.14-05.18.36:035][791]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.10.14-05.18.36:062][791]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.10.14-05.18.36:062][791]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.10.14-05.18.36:063][791]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.10.14-05.18.36:063][791]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.10.14-05.18.36:075][791]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.10.14-05.18.36:085][791]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.10.14-05.18.36:085][791]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.10.14-05.18.36:134][791]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.10.14-05.18.36:149][791]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.10.14-05.18.36:171][791]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.10.14-05.18.36:172][791]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.10.14-05.18.36:178][791]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.10.14-05.18.36:210][791]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.10.14-05.18.36:241][791]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.10.14-05.18.36:241][791]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.10.14-05.18.36:311][791]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.10.14-05.18.36:311][791]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.10.14-05.18.36:317][791]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.10.14-05.18.36:327][791]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.10.14-05.18.36:327][791]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.10.14-05.18.36:327][791]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.10.14-05.18.36:327][791]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.10.14-05.18.36:327][791]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.10.14-05.18.36:327][791]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.10.14-05.18.36:327][791]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.10.14-05.18.36:327][791]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.10.14-05.18.36:376][791]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.10.14-05.18.36:386][791]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.10.14-05.18.36:387][791]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.10.14-05.18.36:419][791]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.10.14-05.18.36:440][791]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.10.14-05.18.36:440][791]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.10.14-05.18.36:465][791]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.10.14-05.18.36:479][791]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.10.14-05.18.36:481][791]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.10.14-05.18.36:482][791]LogDerivedDataCache: Shutdown
+[2018.10.14-05.18.36:482][791]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.10.14-05.18.36:483][791]LogXGEController: Cleaning working directory: C:/Users/krakp_000/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.14-05.18.36:503][791]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.10.14-05.18.36:503][791]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.10.14-05.18.36:531][791]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.10.14-05.18.36:547][791]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.10.14-05.18.36:558][791]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.10.14-05.18.36:558][791]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.10.14-05.18.36:580][791]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.10.14-05.18.36:580][791]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.10.14-05.18.36:580][791]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.10.14-05.18.36:580][791]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.10.14-05.18.36:600][791]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.10.14-05.18.36:600][791]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.10.14-05.18.36:600][791]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.10.14-05.18.36:600][791]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.10.14-05.18.36:600][791]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.10.14-05.18.36:601][791]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.10.14-05.18.36:601][791]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.10.14-05.18.36:601][791]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.10.14-05.18.36:601][791]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.10.14-05.18.36:601][791]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.10.14-05.18.36:608][791]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.10.14-05.18.36:625][791]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.10.14-05.18.36:647][791]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.10.14-05.18.36:647][791]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.10.14-05.18.36:666][791]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.10.14-05.18.36:666][791]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.10.14-05.18.36:812][791]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.10.14-05.18.36:812][791]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.10.14-05.18.36:812][791]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.10.14-05.18.36:812][791]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.10.14-05.18.36:812][791]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.10.14-05.18.36:812][791]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.10.14-05.18.36:813][791]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.10.14-05.18.36:813][791]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.10.14-05.18.36:813][791]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.10.14-05.18.36:813][791]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.10.14-05.18.36:813][791]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.10.14-05.18.36:813][791]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.10.14-05.18.36:813][791]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.10.14-05.18.36:814][791]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.10.14-05.18.36:835][791]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.10.14-05.18.36:835][791]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.10.14-05.18.36:835][791]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.10.14-05.18.36:835][791]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.10.14-05.18.36:845][791]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.10.14-05.18.36:906][791]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.10.14-05.18.36:988][791]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.10.14-05.18.37:085][791]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.10.14-05.18.37:118][791]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.10.14-05.18.37:118][791]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.10.14-05.18.37:118][791]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.10.14-05.18.37:118][791]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.10.14-05.18.37:118][791]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.10.14-05.18.37:118][791]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.10.14-05.18.37:118][791]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.10.14-05.18.37:119][791]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.10.14-05.18.37:119][791]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.10.14-05.18.37:126][791]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.14-05.18.37:127][791]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.10.14-05.18.37:138][791]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.14-05.18.37:181][791]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.14-05.18.37:192][791]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.14-05.18.37:223][791]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.14-05.18.37:239][791]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.14-05.18.37:239][791]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.14-05.18.37:239][791]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.14-05.18.37:301][791]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.14-05.18.37:317][791]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.14-05.18.37:317][791]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.14-05.18.37:327][791]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.14-05.18.37:327][791]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.14-05.18.37:327][791]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.14-05.18.37:327][791]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.14-05.18.37:347][791]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.14-05.18.37:347][791]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.14-05.18.37:405][791]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.14-05.18.37:405][791]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.14-05.18.37:530][791]LogExit: Exiting.
+[2018.10.14-05.18.37:612][791]Log file closed, 10/14/18 01:18:37
